@@ -1,1 +1,1 @@
-# [Data] Pandas/Numpy х╟©К ╣╔юлем а╓а╕/©╛╩Й
+# [Data] Pandas/Numpy М≥°Л ╘ К█╟Л²╢М└╟ Л═∙Л═°/Л≈╟Л┌╟

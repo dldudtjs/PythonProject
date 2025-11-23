@@ -1,1 +1,1 @@
-# [Data] BeautifulSoup/Requests È°¿ë µ¥ÀÌÅÍ ¼öÁı
+# [Data] BeautifulSoup/Requests í™œìš© ë°ì´í„° ìˆ˜ì§‘
