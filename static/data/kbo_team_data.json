@@ -38,7 +38,9 @@
             "ERARP": 4.25,
             "Stadium": "잠실 야구장",
             "Latitude": 37.512389,
-            "Longitude": 127.071972
+            "Longitude": 127.071972,
+            "Logo": "/static/image/LG.png",
+            "Symbol": "/static/image/LG_symbol.png"
         }
     ],
     "한화": [
@@ -80,7 +82,9 @@
             "ERARP": 3.63,
             "Stadium": "대전 한화생명 볼파크",
             "Latitude": 36.317139,
-            "Longitude": 127.429083
+            "Longitude": 127.429083,
+            "Logo": "/static/image/한화.png",
+            "Symbol": "/static/image/한화_symbol.png"
         }
     ],
     "SSG": [
@@ -122,7 +126,9 @@
             "ERARP": 3.36,
             "Stadium": "인천 SSG 랜더스필드",
             "Latitude": 37.436778,
-            "Longitude": 126.693306
+            "Longitude": 126.693306,
+            "Logo": "/static/image/SSG.png",
+            "Symbol": "/static/image/SSG_symbol.png"
         }
     ],
     "삼성": [
@@ -164,7 +170,9 @@
             "ERARP": 4.48,
             "Stadium": "대구 삼성 라이온즈 파크",
             "Latitude": 35.840917,
-            "Longitude": 128.681611
+            "Longitude": 128.681611,
+            "Logo": "/static/image/삼성.png",
+            "Symbol": "/static/image/삼성_symbol.png"
         }
     ],
     "NC": [
@@ -206,7 +214,9 @@
             "ERARP": 4.55,
             "Stadium": "창원 NC 파크",
             "Latitude": 35.222444,
-            "Longitude": 128.581833
+            "Longitude": 128.581833,
+            "Logo": "/static/image/NC.png",
+            "Symbol": "/static/image/NC_symbol.png"
         }
     ],
     "KT": [
@@ -248,7 +258,9 @@
             "ERARP": 3.95,
             "Stadium": "수원 kt wiz 파크",
             "Latitude": 37.299778,
-            "Longitude": 127.009667
+            "Longitude": 127.009667,
+            "Logo": "/static/image/KT.png",
+            "Symbol": "/static/image/KT_symbol.png"
         }
     ],
     "롯데": [
@@ -290,7 +302,9 @@
             "ERARP": 4.68,
             "Stadium": "사직 야구장",
             "Latitude": 35.194028,
-            "Longitude": 129.061611
+            "Longitude": 129.061611,
+            "Logo": "/static/image/롯데.png",
+            "Symbol": "/static/image/롯데_symbol.png"
         }
     ],
     "KIA": [
@@ -332,7 +346,9 @@
             "ERARP": 4.79,
             "Stadium": "광주-KIA 챔피언스 필드",
             "Latitude": 35.168139,
-            "Longitude": 126.889111
+            "Longitude": 126.889111,
+            "Logo": "/static/image/KIA.png",
+            "Symbol": "/static/image/KIA_symbol.png"
         }
     ],
     "두산": [
@@ -374,7 +390,9 @@
             "ERARP": 4.01,
             "Stadium": "잠실 야구장",
             "Latitude": 37.512389,
-            "Longitude": 127.071972
+            "Longitude": 127.071972,
+            "Logo": "/static/image/두산.png",
+            "Symbol": "/static/image/두산_symbol.png"
         }
     ],
     "키움": [
@@ -416,7 +434,9 @@
             "ERARP": 4.52,
             "Stadium": "고척 스카이돔",
             "Latitude": 37.498222,
-            "Longitude": 126.86725
+            "Longitude": 126.86725,
+            "Logo": "/static/image/키움.png",
+            "Symbol": "/static/image/키움_symbol.png"
         }
     ]
 }
