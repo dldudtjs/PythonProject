@@ -1,0 +1,722 @@
+{
+    "KIA": [
+        {
+            "Opponent": "LG",
+            "W": "5",
+            "L": "11",
+            "D": "0",
+            "Winning_PCT": "0.313"
+        },
+        {
+            "Opponent": "ÇÑÈ­",
+            "W": "4",
+            "L": "12",
+            "D": "0",
+            "Winning_PCT": "0.25"
+        },
+        {
+            "Opponent": "SSG",
+            "W": "8",
+            "L": "7",
+            "D": "1",
+            "Winning_PCT": 0.533
+        },
+        {
+            "Opponent": "»ï¼º",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "NC",
+            "W": "7",
+            "L": "9",
+            "D": "0",
+            "Winning_PCT": "0.438"
+        },
+        {
+            "Opponent": "KT",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "·Ôµ¥",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "µÎ»ê",
+            "W": "9",
+            "L": "6",
+            "D": "1",
+            "Winning_PCT": "0.6"
+        },
+        {
+            "Opponent": "Å°¿ò",
+            "W": "8",
+            "L": "6",
+            "D": "2",
+            "Winning_PCT": "0.571"
+        },
+        {
+            "Opponent": "KIA",
+            "W": "-",
+            "L": "-",
+            "D": "-",
+            "Winning_PCT": "-"
+        }
+    ],
+    "KT": [
+        {
+            "Opponent": "LG",
+            "W": "5",
+            "L": "11",
+            "D": "0",
+            "Winning_PCT": "0.313"
+        },
+        {
+            "Opponent": "ÇÑÈ­",
+            "W": "6",
+            "L": "9",
+            "D": "1",
+            "Winning_PCT": "0.4"
+        },
+        {
+            "Opponent": "SSG",
+            "W": "7",
+            "L": "9",
+            "D": "0",
+            "Winning_PCT": "0.438"
+        },
+        {
+            "Opponent": "»ï¼º",
+            "W": "11",
+            "L": "5",
+            "D": "0",
+            "Winning_PCT": "0.688"
+        },
+        {
+            "Opponent": "NC",
+            "W": "6",
+            "L": "9",
+            "D": "1",
+            "Winning_PCT": "0.4"
+        },
+        {
+            "Opponent": "·Ôµ¥",
+            "W": "8",
+            "L": "6",
+            "D": "2",
+            "Winning_PCT": "0.571"
+        },
+        {
+            "Opponent": "KIA",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "µÎ»ê",
+            "W": "11",
+            "L": "4",
+            "D": "1",
+            "Winning_PCT": "0.733"
+        },
+        {
+            "Opponent": "Å°¿ò",
+            "W": "11",
+            "L": "5",
+            "D": "0",
+            "Winning_PCT": "0.688"
+        },
+        {
+            "Opponent": "KT",
+            "W": "-",
+            "L": "-",
+            "D": "-",
+            "Winning_PCT": "-"
+        }
+    ],
+    "LG": [
+        {
+            "Opponent": "ÇÑÈ­",
+            "W": "8",
+            "L": "7",
+            "D": "1",
+            "Winning_PCT": "0.533"
+        },
+        {
+            "Opponent": "SSG",
+            "W": "10",
+            "L": "6",
+            "D": "0",
+            "Winning_PCT": "0.625"
+        },
+        {
+            "Opponent": "»ï¼º",
+            "W": "9",
+            "L": "7",
+            "D": "0",
+            "Winning_PCT": "0.563"
+        },
+        {
+            "Opponent": "NC",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "KT",
+            "W": "11",
+            "L": "5",
+            "D": "0",
+            "Winning_PCT": "0.688"
+        },
+        {
+            "Opponent": "·Ôµ¥",
+            "W": "10",
+            "L": "4",
+            "D": "2",
+            "Winning_PCT": "0.714"
+        },
+        {
+            "Opponent": "KIA",
+            "W": "11",
+            "L": "5",
+            "D": "0",
+            "Winning_PCT": "0.688"
+        },
+        {
+            "Opponent": "µÎ»ê",
+            "W": "9",
+            "L": "7",
+            "D": "0",
+            "Winning_PCT": "0.563"
+        },
+        {
+            "Opponent": "Å°¿ò",
+            "W": "9",
+            "L": "7",
+            "D": "0",
+            "Winning_PCT": "0.563"
+        },
+        {
+            "Opponent": "LG",
+            "W": "-",
+            "L": "-",
+            "D": "-",
+            "Winning_PCT": "-"
+        }
+    ],
+    "NC": [
+        {
+            "Opponent": "LG",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "ÇÑÈ­",
+            "W": "6",
+            "L": "9",
+            "D": "1",
+            "Winning_PCT": "0.4"
+        },
+        {
+            "Opponent": "SSG",
+            "W": "6",
+            "L": "9",
+            "D": "1",
+            "Winning_PCT": "0.4"
+        },
+        {
+            "Opponent": "»ï¼º",
+            "W": "7",
+            "L": "9",
+            "D": "0",
+            "Winning_PCT": "0.438"
+        },
+        {
+            "Opponent": "KT",
+            "W": "9",
+            "L": "6",
+            "D": "1",
+            "Winning_PCT": "0.6"
+        },
+        {
+            "Opponent": "·Ôµ¥",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "KIA",
+            "W": "9",
+            "L": "7",
+            "D": "0",
+            "Winning_PCT": "0.563"
+        },
+        {
+            "Opponent": "µÎ»ê",
+            "W": "9",
+            "L": "5",
+            "D": "2",
+            "Winning_PCT": "0.643"
+        },
+        {
+            "Opponent": "Å°¿ò",
+            "W": "9",
+            "L": "6",
+            "D": "1",
+            "Winning_PCT": "0.6"
+        },
+        {
+            "Opponent": "NC",
+            "W": "-",
+            "L": "-",
+            "D": "-",
+            "Winning_PCT": "-"
+        }
+    ],
+    "SSG": [
+        {
+            "Opponent": "LG",
+            "W": "6",
+            "L": "10",
+            "D": "0",
+            "Winning_PCT": "0.375"
+        },
+        {
+            "Opponent": "ÇÑÈ­",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "»ï¼º",
+            "W": "7",
+            "L": "8",
+            "D": "1",
+            "Winning_PCT": "0.467"
+        },
+        {
+            "Opponent": "NC",
+            "W": "9",
+            "L": "6",
+            "D": "1",
+            "Winning_PCT": "0.6"
+        },
+        {
+            "Opponent": "KT",
+            "W": "9",
+            "L": "7",
+            "D": "0",
+            "Winning_PCT": "0.563"
+        },
+        {
+            "Opponent": "·Ôµ¥",
+            "W": "10",
+            "L": "6",
+            "D": "0",
+            "Winning_PCT": "0.625"
+        },
+        {
+            "Opponent": "KIA",
+            "W": "7",
+            "L": "8",
+            "D": "1",
+            "Winning_PCT": "0.467"
+        },
+        {
+            "Opponent": "µÎ»ê",
+            "W": "10",
+            "L": "6",
+            "D": "0",
+            "Winning_PCT": "0.625"
+        },
+        {
+            "Opponent": "Å°¿ò",
+            "W": "9",
+            "L": "6",
+            "D": "1",
+            "Winning_PCT": "0.6"
+        },
+        {
+            "Opponent": "SSG",
+            "W": "-",
+            "L": "-",
+            "D": "-",
+            "Winning_PCT": "-"
+        }
+    ],
+    "µÎ»ê": [
+        {
+            "Opponent": "LG",
+            "W": "7",
+            "L": "9",
+            "D": "0",
+            "Winning_PCT": "0.438"
+        },
+        {
+            "Opponent": "ÇÑÈ­",
+            "W": "9",
+            "L": "6",
+            "D": "1",
+            "Winning_PCT": "0.6"
+        },
+        {
+            "Opponent": "SSG",
+            "W": "6",
+            "L": "10",
+            "D": "0",
+            "Winning_PCT": "0.375"
+        },
+        {
+            "Opponent": "»ï¼º",
+            "W": "6",
+            "L": "10",
+            "D": "0",
+            "Winning_PCT": "0.375"
+        },
+        {
+            "Opponent": "NC",
+            "W": "5",
+            "L": "9",
+            "D": "2",
+            "Winning_PCT": "0.357"
+        },
+        {
+            "Opponent": "KT",
+            "W": "4",
+            "L": "11",
+            "D": "1",
+            "Winning_PCT": "0.267"
+        },
+        {
+            "Opponent": "·Ôµ¥",
+            "W": "8",
+            "L": "7",
+            "D": "1",
+            "Winning_PCT": "0.533"
+        },
+        {
+            "Opponent": "KIA",
+            "W": "6",
+            "L": "9",
+            "D": "1",
+            "Winning_PCT": "0.4"
+        },
+        {
+            "Opponent": "Å°¿ò",
+            "W": "10",
+            "L": "6",
+            "D": "0",
+            "Winning_PCT": "0.625"
+        },
+        {
+            "Opponent": "µÎ»ê",
+            "W": "-",
+            "L": "-",
+            "D": "-",
+            "Winning_PCT": "-"
+        }
+    ],
+    "·Ôµ¥": [
+        {
+            "Opponent": "LG",
+            "W": "4",
+            "L": "10",
+            "D": "2",
+            "Winning_PCT": "0.286"
+        },
+        {
+            "Opponent": "ÇÑÈ­",
+            "W": "6",
+            "L": "10",
+            "D": "0",
+            "Winning_PCT": "0.375"
+        },
+        {
+            "Opponent": "SSG",
+            "W": "6",
+            "L": "10",
+            "D": "0",
+            "Winning_PCT": "0.375"
+        },
+        {
+            "Opponent": "»ï¼º",
+            "W": "8",
+            "L": "7",
+            "D": "1",
+            "Winning_PCT": "0.533"
+        },
+        {
+            "Opponent": "NC",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "KT",
+            "W": "6",
+            "L": "8",
+            "D": "2",
+            "Winning_PCT": "0.429"
+        },
+        {
+            "Opponent": "KIA",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "µÎ»ê",
+            "W": "7",
+            "L": "8",
+            "D": "1",
+            "Winning_PCT": "0.467"
+        },
+        {
+            "Opponent": "Å°¿ò",
+            "W": "11",
+            "L": "5",
+            "D": "0",
+            "Winning_PCT": "0.688"
+        },
+        {
+            "Opponent": "·Ôµ¥",
+            "W": "-",
+            "L": "-",
+            "D": "-",
+            "Winning_PCT": "-"
+        }
+    ],
+    "»ï¼º": [
+        {
+            "Opponent": "LG",
+            "W": "7",
+            "L": "9",
+            "D": "0",
+            "Winning_PCT": "0.438"
+        },
+        {
+            "Opponent": "ÇÑÈ­",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "SSG",
+            "W": "8",
+            "L": "7",
+            "D": "1",
+            "Winning_PCT": "0.533"
+        },
+        {
+            "Opponent": "NC",
+            "W": "9",
+            "L": "7",
+            "D": "0",
+            "Winning_PCT": "0.563"
+        },
+        {
+            "Opponent": "KT",
+            "W": "5",
+            "L": "11",
+            "D": "0",
+            "Winning_PCT": "0.313"
+        },
+        {
+            "Opponent": "·Ôµ¥",
+            "W": "7",
+            "L": "8",
+            "D": "1",
+            "Winning_PCT": "0.467"
+        },
+        {
+            "Opponent": "KIA",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "µÎ»ê",
+            "W": "10",
+            "L": "6",
+            "D": "0",
+            "Winning_PCT": "0.625"
+        },
+        {
+            "Opponent": "Å°¿ò",
+            "W": "12",
+            "L": "4",
+            "D": "0",
+            "Winning_PCT": "0.75"
+        },
+        {
+            "Opponent": "»ï¼º",
+            "W": "-",
+            "L": "-",
+            "D": "-",
+            "Winning_PCT": "-"
+        }
+    ],
+    "Å°¿ò": [
+        {
+            "Opponent": "LG",
+            "W": "7",
+            "L": "9",
+            "D": "0",
+            "Winning_PCT": "0.438"
+        },
+        {
+            "Opponent": "ÇÑÈ­",
+            "W": "2",
+            "L": "14",
+            "D": "0",
+            "Winning_PCT": "0.125"
+        },
+        {
+            "Opponent": "SSG",
+            "W": "6",
+            "L": "9",
+            "D": "1",
+            "Winning_PCT": "0.4"
+        },
+        {
+            "Opponent": "»ï¼º",
+            "W": "4",
+            "L": "12",
+            "D": "0",
+            "Winning_PCT": "0.25"
+        },
+        {
+            "Opponent": "NC",
+            "W": "6",
+            "L": "9",
+            "D": "1",
+            "Winning_PCT": "0.4"
+        },
+        {
+            "Opponent": "KT",
+            "W": "5",
+            "L": "11",
+            "D": "0",
+            "Winning_PCT": "0.313"
+        },
+        {
+            "Opponent": "·Ôµ¥",
+            "W": "5",
+            "L": "11",
+            "D": "0",
+            "Winning_PCT": "0.313"
+        },
+        {
+            "Opponent": "KIA",
+            "W": "6",
+            "L": "8",
+            "D": "2",
+            "Winning_PCT": "0.429"
+        },
+        {
+            "Opponent": "µÎ»ê",
+            "W": "6",
+            "L": "10",
+            "D": "0",
+            "Winning_PCT": "0.375"
+        },
+        {
+            "Opponent": "Å°¿ò",
+            "W": "-",
+            "L": "-",
+            "D": "-",
+            "Winning_PCT": "-"
+        }
+    ],
+    "ÇÑÈ­": [
+        {
+            "Opponent": "LG",
+            "W": "7",
+            "L": "8",
+            "D": "1",
+            "Winning_PCT": "0.467"
+        },
+        {
+            "Opponent": "SSG",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "»ï¼º",
+            "W": "8",
+            "L": "8",
+            "D": "0",
+            "Winning_PCT": "0.5"
+        },
+        {
+            "Opponent": "NC",
+            "W": "6",
+            "L": "9",
+            "D": "1",
+            "Winning_PCT": "0.4"
+        },
+        {
+            "Opponent": "KT",
+            "W": "9",
+            "L": "6",
+            "D": "1",
+            "Winning_PCT": "0.6"
+        },
+        {
+            "Opponent": "·Ôµ¥",
+            "W": "10",
+            "L": "6",
+            "D": "0",
+            "Winning_PCT": "0.625"
+        },
+        {
+            "Opponent": "KIA",
+            "W": "12",
+            "L": "4",
+            "D": "0",
+            "Winning_PCT": "0.75"
+        },
+        {
+            "Opponent": "µÎ»ê",
+            "W": "6",
+            "L": "9",
+            "D": "1",
+            "Winning_PCT": "0.4"
+        },
+        {
+            "Opponent": "Å°¿ò",
+            "W": "14",
+            "L": "2",
+            "D": "0",
+            "Winning_PCT": "0.875"
+        },
+        {
+            "Opponent": "ÇÑÈ­",
+            "W": "-",
+            "L": "-",
+            "D": "-",
+            "Winning_PCT": "-"
+        }
+    ]
+}
