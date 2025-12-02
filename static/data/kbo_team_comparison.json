@@ -8,11 +8,11 @@
             "Winning_PCT": "0.313"
         },
         {
-            "Opponent": "«—»≠",
+            "Opponent": "ÌïúÌôî",
             "W": "4",
             "L": "12",
             "D": "0",
-            "Winning_PCT": "0.25"
+            "Winning_PCT": "0.250"
         },
         {
             "Opponent": "SSG",
@@ -22,11 +22,11 @@
             "Winning_PCT": 0.533
         },
         {
-            "Opponent": "ªÔº∫",
+            "Opponent": "ÏÇºÏÑ±",
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
             "Opponent": "NC",
@@ -40,24 +40,24 @@
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
-            "Opponent": "∑‘µ•",
+            "Opponent": "Î°ØÎç∞",
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
-            "Opponent": "µŒªÍ",
+            "Opponent": "ÎëêÏÇ∞",
             "W": "9",
             "L": "6",
             "D": "1",
-            "Winning_PCT": "0.6"
+            "Winning_PCT": "0.600"
         },
         {
-            "Opponent": "≈∞øÚ",
+            "Opponent": "ÌÇ§ÏõÄ",
             "W": "8",
             "L": "6",
             "D": "2",
@@ -80,11 +80,11 @@
             "Winning_PCT": "0.313"
         },
         {
-            "Opponent": "«—»≠",
+            "Opponent": "ÌïúÌôî",
             "W": "6",
             "L": "9",
             "D": "1",
-            "Winning_PCT": "0.4"
+            "Winning_PCT": "0.400"
         },
         {
             "Opponent": "SSG",
@@ -94,7 +94,7 @@
             "Winning_PCT": "0.438"
         },
         {
-            "Opponent": "ªÔº∫",
+            "Opponent": "ÏÇºÏÑ±",
             "W": "11",
             "L": "5",
             "D": "0",
@@ -105,31 +105,31 @@
             "W": "6",
             "L": "9",
             "D": "1",
-            "Winning_PCT": "0.4"
+            "Winning_PCT": "0.400"
         },
         {
-            "Opponent": "∑‘µ•",
-            "W": "8",
-            "L": "6",
+            "Opponent": "Î°ØÎç∞",
+            "W": "6",
+            "L": "8",
             "D": "2",
-            "Winning_PCT": "0.571"
+            "Winning_PCT": "0.429"
         },
         {
             "Opponent": "KIA",
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
-            "Opponent": "µŒªÍ",
+            "Opponent": "ÎëêÏÇ∞",
             "W": "11",
             "L": "4",
             "D": "1",
             "Winning_PCT": "0.733"
         },
         {
-            "Opponent": "≈∞øÚ",
+            "Opponent": "ÌÇ§ÏõÄ",
             "W": "11",
             "L": "5",
             "D": "0",
@@ -145,7 +145,7 @@
     ],
     "LG": [
         {
-            "Opponent": "«—»≠",
+            "Opponent": "ÌïúÌôî",
             "W": "8",
             "L": "7",
             "D": "1",
@@ -159,7 +159,7 @@
             "Winning_PCT": "0.625"
         },
         {
-            "Opponent": "ªÔº∫",
+            "Opponent": "ÏÇºÏÑ±",
             "W": "9",
             "L": "7",
             "D": "0",
@@ -170,7 +170,7 @@
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
             "Opponent": "KT",
@@ -180,7 +180,7 @@
             "Winning_PCT": "0.688"
         },
         {
-            "Opponent": "∑‘µ•",
+            "Opponent": "Î°ØÎç∞",
             "W": "10",
             "L": "4",
             "D": "2",
@@ -194,14 +194,14 @@
             "Winning_PCT": "0.688"
         },
         {
-            "Opponent": "µŒªÍ",
+            "Opponent": "ÎëêÏÇ∞",
             "W": "9",
             "L": "7",
             "D": "0",
             "Winning_PCT": "0.563"
         },
         {
-            "Opponent": "≈∞øÚ",
+            "Opponent": "ÌÇ§ÏõÄ",
             "W": "9",
             "L": "7",
             "D": "0",
@@ -221,24 +221,24 @@
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
-            "Opponent": "«—»≠",
+            "Opponent": "ÌïúÌôî",
             "W": "6",
             "L": "9",
             "D": "1",
-            "Winning_PCT": "0.4"
+            "Winning_PCT": "0.400"
         },
         {
             "Opponent": "SSG",
             "W": "6",
             "L": "9",
             "D": "1",
-            "Winning_PCT": "0.4"
+            "Winning_PCT": "0.400"
         },
         {
-            "Opponent": "ªÔº∫",
+            "Opponent": "ÏÇºÏÑ±",
             "W": "7",
             "L": "9",
             "D": "0",
@@ -249,14 +249,14 @@
             "W": "9",
             "L": "6",
             "D": "1",
-            "Winning_PCT": "0.6"
+            "Winning_PCT": "0.600"
         },
         {
-            "Opponent": "∑‘µ•",
+            "Opponent": "Î°ØÎç∞",
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
             "Opponent": "KIA",
@@ -266,18 +266,18 @@
             "Winning_PCT": "0.563"
         },
         {
-            "Opponent": "µŒªÍ",
+            "Opponent": "ÎëêÏÇ∞",
             "W": "9",
             "L": "5",
             "D": "2",
             "Winning_PCT": "0.643"
         },
         {
-            "Opponent": "≈∞øÚ",
+            "Opponent": "ÌÇ§ÏõÄ",
             "W": "9",
             "L": "6",
             "D": "1",
-            "Winning_PCT": "0.6"
+            "Winning_PCT": "0.600"
         },
         {
             "Opponent": "NC",
@@ -296,14 +296,14 @@
             "Winning_PCT": "0.375"
         },
         {
-            "Opponent": "«—»≠",
+            "Opponent": "ÌïúÌôî",
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
-            "Opponent": "ªÔº∫",
+            "Opponent": "ÏÇºÏÑ±",
             "W": "7",
             "L": "8",
             "D": "1",
@@ -314,7 +314,7 @@
             "W": "9",
             "L": "6",
             "D": "1",
-            "Winning_PCT": "0.6"
+            "Winning_PCT": "0.600"
         },
         {
             "Opponent": "KT",
@@ -324,7 +324,7 @@
             "Winning_PCT": "0.563"
         },
         {
-            "Opponent": "∑‘µ•",
+            "Opponent": "Î°ØÎç∞",
             "W": "10",
             "L": "6",
             "D": "0",
@@ -338,18 +338,18 @@
             "Winning_PCT": "0.467"
         },
         {
-            "Opponent": "µŒªÍ",
+            "Opponent": "ÎëêÏÇ∞",
             "W": "10",
             "L": "6",
             "D": "0",
             "Winning_PCT": "0.625"
         },
         {
-            "Opponent": "≈∞øÚ",
+            "Opponent": "ÌÇ§ÏõÄ",
             "W": "9",
             "L": "6",
             "D": "1",
-            "Winning_PCT": "0.6"
+            "Winning_PCT": "0.600"
         },
         {
             "Opponent": "SSG",
@@ -359,7 +359,7 @@
             "Winning_PCT": "-"
         }
     ],
-    "µŒªÍ": [
+    "ÎëêÏÇ∞": [
         {
             "Opponent": "LG",
             "W": "7",
@@ -368,11 +368,11 @@
             "Winning_PCT": "0.438"
         },
         {
-            "Opponent": "«—»≠",
+            "Opponent": "ÌïúÌôî",
             "W": "9",
             "L": "6",
             "D": "1",
-            "Winning_PCT": "0.6"
+            "Winning_PCT": "0.600"
         },
         {
             "Opponent": "SSG",
@@ -382,7 +382,7 @@
             "Winning_PCT": "0.375"
         },
         {
-            "Opponent": "ªÔº∫",
+            "Opponent": "ÏÇºÏÑ±",
             "W": "6",
             "L": "10",
             "D": "0",
@@ -403,7 +403,7 @@
             "Winning_PCT": "0.267"
         },
         {
-            "Opponent": "∑‘µ•",
+            "Opponent": "Î°ØÎç∞",
             "W": "8",
             "L": "7",
             "D": "1",
@@ -414,24 +414,24 @@
             "W": "6",
             "L": "9",
             "D": "1",
-            "Winning_PCT": "0.4"
+            "Winning_PCT": "0.400"
         },
         {
-            "Opponent": "≈∞øÚ",
+            "Opponent": "ÌÇ§ÏõÄ",
             "W": "10",
             "L": "6",
             "D": "0",
             "Winning_PCT": "0.625"
         },
         {
-            "Opponent": "µŒªÍ",
+            "Opponent": "ÎëêÏÇ∞",
             "W": "-",
             "L": "-",
             "D": "-",
             "Winning_PCT": "-"
         }
     ],
-    "∑‘µ•": [
+    "Î°ØÎç∞": [
         {
             "Opponent": "LG",
             "W": "4",
@@ -440,7 +440,7 @@
             "Winning_PCT": "0.286"
         },
         {
-            "Opponent": "«—»≠",
+            "Opponent": "ÌïúÌôî",
             "W": "6",
             "L": "10",
             "D": "0",
@@ -454,7 +454,7 @@
             "Winning_PCT": "0.375"
         },
         {
-            "Opponent": "ªÔº∫",
+            "Opponent": "ÏÇºÏÑ±",
             "W": "8",
             "L": "7",
             "D": "1",
@@ -465,45 +465,45 @@
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
             "Opponent": "KT",
-            "W": "6",
-            "L": "8",
+            "W": "8",
+            "L": "6",
             "D": "2",
-            "Winning_PCT": "0.429"
+            "Winning_PCT": "0.571"
         },
         {
             "Opponent": "KIA",
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
-            "Opponent": "µŒªÍ",
+            "Opponent": "ÎëêÏÇ∞",
             "W": "7",
             "L": "8",
             "D": "1",
             "Winning_PCT": "0.467"
         },
         {
-            "Opponent": "≈∞øÚ",
+            "Opponent": "ÌÇ§ÏõÄ",
             "W": "11",
             "L": "5",
             "D": "0",
             "Winning_PCT": "0.688"
         },
         {
-            "Opponent": "∑‘µ•",
+            "Opponent": "Î°ØÎç∞",
             "W": "-",
             "L": "-",
             "D": "-",
             "Winning_PCT": "-"
         }
     ],
-    "ªÔº∫": [
+    "ÏÇºÏÑ±": [
         {
             "Opponent": "LG",
             "W": "7",
@@ -512,11 +512,11 @@
             "Winning_PCT": "0.438"
         },
         {
-            "Opponent": "«—»≠",
+            "Opponent": "ÌïúÌôî",
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
             "Opponent": "SSG",
@@ -540,7 +540,7 @@
             "Winning_PCT": "0.313"
         },
         {
-            "Opponent": "∑‘µ•",
+            "Opponent": "Î°ØÎç∞",
             "W": "7",
             "L": "8",
             "D": "1",
@@ -551,31 +551,31 @@
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
-            "Opponent": "µŒªÍ",
+            "Opponent": "ÎëêÏÇ∞",
             "W": "10",
             "L": "6",
             "D": "0",
             "Winning_PCT": "0.625"
         },
         {
-            "Opponent": "≈∞øÚ",
+            "Opponent": "ÌÇ§ÏõÄ",
             "W": "12",
             "L": "4",
             "D": "0",
-            "Winning_PCT": "0.75"
+            "Winning_PCT": "0.750"
         },
         {
-            "Opponent": "ªÔº∫",
+            "Opponent": "ÏÇºÏÑ±",
             "W": "-",
             "L": "-",
             "D": "-",
             "Winning_PCT": "-"
         }
     ],
-    "≈∞øÚ": [
+    "ÌÇ§ÏõÄ": [
         {
             "Opponent": "LG",
             "W": "7",
@@ -584,7 +584,7 @@
             "Winning_PCT": "0.438"
         },
         {
-            "Opponent": "«—»≠",
+            "Opponent": "ÌïúÌôî",
             "W": "2",
             "L": "14",
             "D": "0",
@@ -595,21 +595,21 @@
             "W": "6",
             "L": "9",
             "D": "1",
-            "Winning_PCT": "0.4"
+            "Winning_PCT": "0.400"
         },
         {
-            "Opponent": "ªÔº∫",
+            "Opponent": "ÏÇºÏÑ±",
             "W": "4",
             "L": "12",
             "D": "0",
-            "Winning_PCT": "0.25"
+            "Winning_PCT": "0.250"
         },
         {
             "Opponent": "NC",
             "W": "6",
             "L": "9",
             "D": "1",
-            "Winning_PCT": "0.4"
+            "Winning_PCT": "0.400"
         },
         {
             "Opponent": "KT",
@@ -619,7 +619,7 @@
             "Winning_PCT": "0.313"
         },
         {
-            "Opponent": "∑‘µ•",
+            "Opponent": "Î°ØÎç∞",
             "W": "5",
             "L": "11",
             "D": "0",
@@ -633,21 +633,21 @@
             "Winning_PCT": "0.429"
         },
         {
-            "Opponent": "µŒªÍ",
+            "Opponent": "ÎëêÏÇ∞",
             "W": "6",
             "L": "10",
             "D": "0",
             "Winning_PCT": "0.375"
         },
         {
-            "Opponent": "≈∞øÚ",
+            "Opponent": "ÌÇ§ÏõÄ",
             "W": "-",
             "L": "-",
             "D": "-",
             "Winning_PCT": "-"
         }
     ],
-    "«—»≠": [
+    "ÌïúÌôî": [
         {
             "Opponent": "LG",
             "W": "7",
@@ -660,31 +660,31 @@
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
-            "Opponent": "ªÔº∫",
+            "Opponent": "ÏÇºÏÑ±",
             "W": "8",
             "L": "8",
             "D": "0",
-            "Winning_PCT": "0.5"
+            "Winning_PCT": "0.500"
         },
         {
             "Opponent": "NC",
-            "W": "6",
-            "L": "9",
+            "W": "9",
+            "L": "6",
             "D": "1",
-            "Winning_PCT": "0.4"
+            "Winning_PCT": "0.600"
         },
         {
             "Opponent": "KT",
             "W": "9",
             "L": "6",
             "D": "1",
-            "Winning_PCT": "0.6"
+            "Winning_PCT": "0.600"
         },
         {
-            "Opponent": "∑‘µ•",
+            "Opponent": "Î°ØÎç∞",
             "W": "10",
             "L": "6",
             "D": "0",
@@ -695,24 +695,24 @@
             "W": "12",
             "L": "4",
             "D": "0",
-            "Winning_PCT": "0.75"
+            "Winning_PCT": "0.750"
         },
         {
-            "Opponent": "µŒªÍ",
+            "Opponent": "ÎëêÏÇ∞",
             "W": "6",
             "L": "9",
             "D": "1",
-            "Winning_PCT": "0.4"
+            "Winning_PCT": "0.400"
         },
         {
-            "Opponent": "≈∞øÚ",
+            "Opponent": "ÌÇ§ÏõÄ",
             "W": "14",
             "L": "2",
             "D": "0",
             "Winning_PCT": "0.875"
         },
         {
-            "Opponent": "«—»≠",
+            "Opponent": "ÌïúÌôî",
             "W": "-",
             "L": "-",
             "D": "-",
