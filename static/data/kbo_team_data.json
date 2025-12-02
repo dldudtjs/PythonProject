@@ -40,7 +40,8 @@
             "Latitude": 37.512389,
             "Longitude": 127.071972,
             "Logo": "/static/image/LG.png",
-            "Symbol": "/static/image/LG_symbol.png"
+            "Symbol": "/static/image/LG_symbol.png",
+            "team_color": "#C30452"
         }
     ],
     "ÇÑÈ­": [
@@ -84,7 +85,8 @@
             "Latitude": 36.317139,
             "Longitude": 127.429083,
             "Logo": "/static/image/ÇÑÈ­.png",
-            "Symbol": "/static/image/ÇÑÈ­_symbol.png"
+            "Symbol": "/static/image/ÇÑÈ­_symbol.png",
+            "team_color": "#FC4E00"
         }
     ],
     "SSG": [
@@ -128,7 +130,8 @@
             "Latitude": 37.436778,
             "Longitude": 126.693306,
             "Logo": "/static/image/SSG.png",
-            "Symbol": "/static/image/SSG_symbol.png"
+            "Symbol": "/static/image/SSG_symbol.png",
+            "team_color": "#CE0E2D"
         }
     ],
     "»ï¼º": [
@@ -172,7 +175,8 @@
             "Latitude": 35.840917,
             "Longitude": 128.681611,
             "Logo": "/static/image/»ï¼º.png",
-            "Symbol": "/static/image/»ï¼º_symbol.png"
+            "Symbol": "/static/image/»ï¼º_symbol.png",
+            "team_color": "#074CA1"
         }
     ],
     "NC": [
@@ -216,7 +220,8 @@
             "Latitude": 35.222444,
             "Longitude": 128.581833,
             "Logo": "/static/image/NC.png",
-            "Symbol": "/static/image/NC_symbol.png"
+            "Symbol": "/static/image/NC_symbol.png",
+            "team_color": "#315288"
         }
     ],
     "KT": [
@@ -260,7 +265,8 @@
             "Latitude": 37.299778,
             "Longitude": 127.009667,
             "Logo": "/static/image/KT.png",
-            "Symbol": "/static/image/KT_symbol.png"
+            "Symbol": "/static/image/KT_symbol.png",
+            "team_color": "#000000"
         }
     ],
     "·Ôµ¥": [
@@ -304,7 +310,8 @@
             "Latitude": 35.194028,
             "Longitude": 129.061611,
             "Logo": "/static/image/·Ôµ¥.png",
-            "Symbol": "/static/image/·Ôµ¥_symbol.png"
+            "Symbol": "/static/image/·Ôµ¥_symbol.png",
+            "team_color": "#041E42"
         }
     ],
     "KIA": [
@@ -348,7 +355,8 @@
             "Latitude": 35.168139,
             "Longitude": 126.889111,
             "Logo": "/static/image/KIA.png",
-            "Symbol": "/static/image/KIA_symbol.png"
+            "Symbol": "/static/image/KIA_symbol.png",
+            "team_color": "#EA0029"
         }
     ],
     "µÎ»ê": [
@@ -392,7 +400,8 @@
             "Latitude": 37.512389,
             "Longitude": 127.071972,
             "Logo": "/static/image/µÎ»ê.png",
-            "Symbol": "/static/image/µÎ»ê_symbol.png"
+            "Symbol": "/static/image/µÎ»ê_symbol.png",
+            "team_color": "#1A1748"
         }
     ],
     "Å°¿ò": [
@@ -436,7 +445,8 @@
             "Latitude": 37.498222,
             "Longitude": 126.86725,
             "Logo": "/static/image/Å°¿ò.png",
-            "Symbol": "/static/image/Å°¿ò_symbol.png"
+            "Symbol": "/static/image/Å°¿ò_symbol.png",
+            "team_color": "#570514"
         }
     ]
 }
