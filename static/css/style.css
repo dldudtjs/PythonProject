@@ -1,6 +1,7 @@
 /* style.css - 공통 및 메인 페이지 스타일 */
 
 /* --- 1. 기본 설정 (Reset & Common) --- */
+
 body {
   font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
   margin: 0;
@@ -68,7 +69,7 @@ nav a:hover {
 footer {
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   color: #666;
   font-size: 0.9rem;
 }
@@ -77,8 +78,27 @@ footer {
 .dashboard-grid {
   display: flex;
   gap: 2rem;
-  align-items: flex-start;
-  margin-top: 2rem;
+  /* align-items: flex-start;  <-- 이 줄을 삭제하거나 stretch로 변경 */
+  align-items: stretch; /* 중요: 양쪽 박스 높이를 동일하게 강제함 */
+
+  /* 화면 전체 높이(100vh)에서 헤더, 푸터, 여백 높이를 뺀 만큼만 차지하게 설정 */
+  /* 대략 헤더+푸터+마진 = 180px 정도로 계산 */
+  height: calc(100vh - 180px);
+
+  margin-top: 1rem; /* 상단 여백 조금 줄임 */
+  overflow: hidden; /* 그리드 밖으로 나가는 내용 숨김 */
+}
+
+/* 순위 변동 그래프 제목 */
+.title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 10px;
+}
+.title-row h3,
+.title-row p {
+  margin: 0;
 }
 
 .chart-section {
@@ -87,6 +107,22 @@ footer {
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  /* 추가된 속성: 내용이 넘치면 박스 안에서 스크롤 */
+  overflow-y: auto;
+
+  /* 내부 요소 정렬을 위해 flex 사용 (선택사항이나 추천) */
+  display: flex;
+  flex-direction: column;
+}
+
+/* 스크롤바 디자인 (선택사항) */
+.chart-section::-webkit-scrollbar {
+  width: 8px;
+}
+.chart-section::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
 }
 
 .chart-box img {
@@ -101,16 +137,19 @@ footer {
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  height: 600px;
+
+  /* height: 600px;  <-- 이 줄을 반드시 삭제하거나 auto로 변경하세요! */
+  height: auto;
+
   display: flex;
   flex-direction: column;
+  overflow: hidden; /* 자식 요소인 리스트 컨테이너가 스크롤을 담당하도록 설정 */
 }
 
 .rank-section h3 {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 10px;
+  margin-bottom: 18px;
   padding-left: 0.5rem;
-  border-left: 5px solid #a50034;
 }
 
 .rank-list-container {
@@ -160,15 +199,43 @@ footer {
 }
 
 .rank-badge.rank-1 {
-  background-color: #e6b800;
+  background-color: #c30452;
   color: #fff;
 }
 .rank-badge.rank-2 {
-  background-color: #a6a6a6;
+  background-color: #fc4e00;
   color: #fff;
 }
 .rank-badge.rank-3 {
-  background-color: #cd7f32;
+  background-color: #ce0e2d;
+  color: #fff;
+}
+.rank-badge.rank-4 {
+  background-color: #074ca1;
+  color: #fff;
+}
+.rank-badge.rank-5 {
+  background-color: #315288;
+  color: #fff;
+}
+.rank-badge.rank-6 {
+  background-color: #000000;
+  color: #fff;
+}
+.rank-badge.rank-7 {
+  background-color: #041e42;
+  color: #fff;
+}
+.rank-badge.rank-8 {
+  background-color: #ea0029;
+  color: #fff;
+}
+.rank-badge.rank-9 {
+  background-color: #1a1748;
+  color: #fff;
+}
+.rank-badge.rank-10 {
+  background-color: #570514;
   color: #fff;
 }
 

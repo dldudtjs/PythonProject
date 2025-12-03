@@ -19,7 +19,6 @@
         <a href="/" class="logo">KBO Stat Lab</a>
         <nav>
           <ul>
-            <li><a href="/team">Team</a></li>
             <li><a href="/player_compare">선수-선수 비교분석</a></li>
             <li><a href="/analysis">팀-팀 비교분석</a></li>
           </ul>
@@ -59,46 +58,41 @@
         <button onclick="compareTeams()" class="analyze-btn">분석하기</button>
       </section>
 
-      <div
-        id="comparison-result"
-        class="comparison-container"
-        style="display: none; flex-direction: column; align-items: center"
-      >
-        <div
-          style="
-            display: flex;
-            gap: 40px;
-            margin-bottom: 30px;
-            flex-wrap: wrap;
-            justify-content: center;
-          "
-        >
-          <div class="result-box">
-            <h3 id="team1-name-display"></h3>
-            <img id="team1-img" src="" alt="Team A 분석표" />
-          </div>
-          <div class="result-box">
-            <h3 id="team2-name-display"></h3>
-            <img id="team2-img" src="" alt="Team B 분석표" />
+      <div id="comparison-result" class="comparison-container hidden">
+        <div class="result-section">
+          <div class="result-row">
+            <div class="result-box">
+              <h3 id="team1-name-display">Team A 분석</h3>
+              <div class="img-wrapper">
+                <img id="team1-img" src="" alt="Team A 분석표" />
+              </div>
+            </div>
+            <div class="result-box">
+              <h3 id="team2-name-display">Team B 분석</h3>
+              <div class="img-wrapper">
+                <img id="team2-img" src="" alt="Team B 분석표" />
+              </div>
+            </div>
           </div>
         </div>
 
-        <h2 style="margin-bottom: 15px; color: #333">팀별 대결 기록</h2>
-        <div
-          style="
-            display: flex;
-            gap: 40px;
-            flex-wrap: wrap;
-            justify-content: center;
-          "
-        >
-          <div class="result-box">
-            <h3 id="record1-title"></h3>
-            <img id="record1-img" src="" alt="상대전적 A" />
-          </div>
-          <div class="result-box">
-            <h3 id="record2-title"></h3>
-            <img id="record2-img" src="" alt="상대전적 B" />
+        <div class="section-divider"></div>
+
+        <div class="result-section">
+          <h2 class="section-title">팀별 대결 기록</h2>
+          <div class="result-row">
+            <div class="result-box">
+              <h3 id="record1-title">A vs B</h3>
+              <div class="img-wrapper">
+                <img id="record1-img" src="" alt="상대전적 A" />
+              </div>
+            </div>
+            <div class="result-box">
+              <h3 id="record2-title">B vs A</h3>
+              <div class="img-wrapper">
+                <img id="record2-img" src="" alt="상대전적 B" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -113,17 +107,17 @@
           alert("두 팀을 모두 선택해주세요.");
           return;
         }
-
         if (team1 === team2) {
           alert("서로 다른 팀을 선택해주세요.");
           return;
         }
 
-        // 1. 컨테이너 보이기
+        // 1. 컨테이너 보이기 (class 'hidden' 제거)
         const container = document.getElementById("comparison-result");
-        container.style.display = "flex";
+        container.classList.remove("hidden");
+        container.classList.add("visible");
 
-        // 2. WAA 분석 표 설정 (기존)
+        // 2. WAA 분석 표 설정
         document.getElementById("team1-name-display").textContent =
           team1 + " 분석 (WAA)";
         document.getElementById("team2-name-display").textContent =
@@ -135,15 +129,13 @@
           "team2-img"
         ).src = `/static/image/table/table_${team2}.png`;
 
-        // 3. ★ 상대 전적 표 설정 (신규)
+        // 3. 상대 전적 표 설정
         document.getElementById(
           "record1-title"
         ).textContent = `${team1} vs ${team2} 전적`;
         document.getElementById(
           "record2-title"
         ).textContent = `${team2} vs ${team1} 전적`;
-
-        // 파일명 규칙: record_팀_vs_상대.png
         document.getElementById(
           "record1-img"
         ).src = `/static/image/record/record_${team1}_vs_${team2}.png`;

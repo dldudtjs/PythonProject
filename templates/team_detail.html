@@ -23,7 +23,6 @@
         <a href="/" class="logo">KBO Stat Lab</a>
         <nav>
           <ul>
-            <li><a href="/team">Team</a></li>
             <li><a href="/player_compare">선수-선수 비교분석</a></li>
             <li><a href="/analysis">팀-팀 비교분석</a></li>
           </ul>
@@ -53,10 +52,7 @@
         <aside class="left-sidebar">
           <div class="player-list-area full-height">
             <div class="list-header">
-              <h3>
-                출전선수 리스트
-                <span class="count">({{ players|length }})</span>
-              </h3>
+              <h3>주요 선수 리스트</h3>
             </div>
 
             <div class="player-list-header-row">
@@ -83,7 +79,7 @@
 
         <section class="right-content-area custom-scroll">
           <div class="analysis-card">
-            <h3>팀 전력 분석 (WAA)</h3>
+            <h3>팀 분석 (WAA)</h3>
             <div class="chart-wrapper">
               <img
                 src="{{ url_for('static', filename='image/radar/radar_' + team_name + '.png') }}"
@@ -92,18 +88,20 @@
             </div>
           </div>
 
-          <div class="chart-wrapper" style="height: 300px">
-            <iframe
-              src="{{ url_for('static', filename='maps/map_' + team_name + '.html') }}"
-              width="100%"
-              height="100%"
-              style="border: none; border-radius: 8px"
-            >
-            </iframe>
+          <div class="analysis-card map-only">
+            <div class="chart-wrapper">
+              <iframe
+                src="{{ url_for('static', filename='maps/map_' + team_name + '.html') }}"
+                width="100%"
+                height="100%"
+                style="border: none"
+              >
+              </iframe>
+            </div>
           </div>
 
           <div class="analysis-card">
-            <h3>경기당 득점/실점 비교 (R/G)</h3>
+            <h3>득점/실점 비교</h3>
             <div class="chart-wrapper">
               <img
                 src="{{ url_for('static', filename='image/team_chart/runs_chart_' + team_name + '.png') }}"
@@ -113,7 +111,7 @@
           </div>
 
           <div class="analysis-card">
-            <h3>피타고리안 승률 분석</h3>
+            <h3>기대 승률</h3>
 
             <div class="chart-wrapper">
               <img
@@ -146,9 +144,5 @@
         </section>
       </div>
     </main>
-
-    <footer>
-      <p>© 2025 KBO Data Analysis Project.</p>
-    </footer>
   </body>
 </html>

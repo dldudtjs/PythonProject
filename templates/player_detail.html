@@ -7,145 +7,17 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='css/style.css') }}"
     />
-    <style>
-      /* 이 페이지 전용 스타일 (나중에 css 파일로 이동 가능) */
-      body {
-        background-color: #f4f4f9; /* 전체 배경 흰색 */
-      }
-
-      .sub-nav span {
-        margin-left: 20px;
-        font-size: 0.9rem;
-        color: #555;
-        cursor: pointer;
-      }
-
-      /* 2. 메인 레이아웃 (좌우 분할) */
-      .player-dashboard {
-        display: flex;
-        gap: 50px; /* 좌우 간격 넓게 */
-        align-items: flex-start;
-      }
-
-      /* [왼쪽] 프로필 카드 섹션 */
-      .profile-sidebar {
-        flex: 0 0 320px; /* 너비 320px 고정 */
-        background-color: #d9d9d9; /* 회색 배경 */
-        padding: 40px 30px;
-        text-align: center;
-        /* 높이는 내용에 따라 늘어남 */
-      }
-
-      .p-name {
-        font-size: 1.1rem;
-        font-weight: bold;
-        margin-bottom: 20px;
-        color: #000;
-      }
-
-      .p-img-box {
-        width: 160px;
-        height: 160px;
-        background-color: #fff;
-        border-radius: 50%;
-        margin: 0 auto 20px;
-        overflow: hidden;
-        border: 4px solid #fff;
-      }
-
-      .p-img-box img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-
-      .team-row {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        margin-bottom: 30px;
-      }
-
-      .team-symbol {
-        width: 20px;
-        height: 20px;
-        background-color: #000; /* 심볼 없을 때 검은색 */
-        border-radius: 50%;
-        object-fit: contain;
-      }
-
-      .team-text {
-        font-weight: bold;
-        font-size: 1rem;
-      }
-
-      /* 상세 정보 리스트 */
-      .info-list {
-        text-align: left;
-        font-size: 0.9rem;
-        line-height: 1.8;
-        color: #333;
-      }
-
-      .info-row {
-        display: flex;
-      }
-
-      .info-label {
-        width: 90px;
-        flex-shrink: 0;
-      }
-
-      /* [오른쪽] 그래프 대시보드 영역 */
-      .dashboard-content {
-        flex: 1; /* 남은 공간 모두 사용 */
-        display: flex;
-        flex-direction: column;
-        gap: 40px; /* 위아래 간격 */
-      }
-
-      .chart-row-top {
-        display: flex;
-        gap: 40px;
-      }
-
-      .chart-box {
-        flex: 1;
-      }
-
-      .chart-title {
-        font-size: 0.9rem;
-        font-weight: bold;
-        margin-bottom: 0px;
-        color: #333;
-      }
-
-      .chart-container-circle {
-        width: 250px;
-        height: 250px;
-        margin: 0 auto;
-      }
-      .chart-placeholder-rect {
-        width: 100%;
-        height: 250px;
-        background-color: #d9d9d9;
-      }
-
-      .chart-placeholder-wide {
-        width: 100%;
-        height: 300px;
-        background-color: #d9d9d9;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/player_detail.css') }}"
+    />
   </head>
-  <body>
+  <body class="scrollable">
     <header>
       <div class="container header-content">
         <a href="/" class="logo">KBO Stat Lab</a>
         <nav>
           <ul>
-            <li><a href="/team">Team</a></li>
             <li><a href="/player_compare">선수-선수 비교분석</a></li>
             <li><a href="/analysis">팀-팀 비교분석</a></li>
           </ul>
@@ -155,7 +27,7 @@
 
     <main class="container">
       <div class="player-dashboard">
-        <aside class="profile-sidebar">
+        <aside class="profile-card">
           <div class="p-name">{{ player.Name }}</div>
 
           <div class="p-img-box">
@@ -169,119 +41,93 @@
             {% if team_symbol %}
             <img src="{{ team_symbol }}" class="team-symbol" alt="팀 로고" />
             {% else %}
-            <div class="team-symbol"></div>
+            <div class="team-symbol placeholder"></div>
             {% endif %}
             <span class="team-text">{{ player.Team }}</span>
           </div>
 
           <div class="info-list">
             <div class="info-row">
-              <span class="info-label">포지션</span> | {{ player['Pos.'] }}
+              <span class="info-label">포지션</span>
+              <span class="info-value">{{ player['Pos.'] }}</span>
             </div>
             <div class="info-row">
-              <span class="info-label">투타</span> | {{ player.Hand }}
+              <span class="info-label">투타</span>
+              <span class="info-value">{{ player.Hand }}</span>
             </div>
             <div class="info-row">
-              <span class="info-label">나이</span> | {{ player.Age }}
+              <span class="info-label">나이</span>
+              <span class="info-value">{{ player.Age }}세</span>
             </div>
             <div class="info-row">
-              <span class="info-label">생년월일</span> | {{ player.Birth }}
+              <span class="info-label">생년월일</span>
+              <span class="info-value">{{ player.Birth }}</span>
             </div>
             <div class="info-row">
-              <span class="info-label">학력</span> | {{ player.SchoolInfo }}
+              <span class="info-label">학력</span>
+              <span class="info-value">{{ player.SchoolInfo }}</span>
             </div>
             <div class="info-row">
-              <span class="info-label">드래프트 정보</span> | {{
-              player.DraftInfo }}
+              <span class="info-label">드래프트</span>
+              <span class="info-value">{{ player.DraftInfo }}</span>
             </div>
             <div class="info-row">
-              <span class="info-label">출장 경기 수</span> | {{ player.G }}
+              <span class="info-label">출장 경기</span>
+              <span class="info-value">{{ player.G }}경기</span>
             </div>
           </div>
         </aside>
 
         <section class="dashboard-content">
           <div class="chart-row-top">
-            <div class="chart-box">
-              <div class="chart-title">핵심 능력치 요약 (WAR 기여도)</div>
+            <div class="chart-card">
+              <div class="chart-header">
+                <div class="chart-title">핵심 능력치 (WAR)</div>
+              </div>
 
-              <div class="chart-container-circle">
+              <div class="chart-body circle-chart-area">
                 <img
                   src="{{ url_for('static', filename='image/player_chart/war_chart_' ~ player.Id ~ '.png') }}"
                   alt="WAR 분석 차트"
-                  style="
-                    width: 100%;
-                    height: 100%;
-                    object-fit: contain;
-                    margin-top: 5px;
-                  "
                 />
               </div>
 
-              <div
-                style="text-align: center; font-size: 0.8rem; margin-top: 5px"
-              >
-                <span style="color: #d9534f; font-weight: bold"
+              <div class="chart-footer">
+                <span class="stat-tag owar"
                   >■ 공격(oWAR): {{ player.oWAR }}</span
                 >
-                &nbsp;
-                <span style="color: #5b7ece; font-weight: bold"
+                <span class="stat-tag dwar"
                   >■ 수비(dWAR): {{ player.dWAR }}</span
                 >
               </div>
             </div>
 
-            <div class="chart-box">
-              <div class="chart-title">공격 효율성 (wRC+ / 비율 스탯)</div>
-
-              <div
-                style="
-                  width: 100%;
-                  height: 250px;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                "
-              >
+            <div class="chart-card">
+              <div class="chart-header">
+                <div class="chart-title">공격 효율성 (wRC+)</div>
+              </div>
+              <div class="chart-body">
                 <img
                   src="{{ url_for('static', filename='image/player_chart/offensive_chart_' ~ player.Id ~ '.png') }}"
                   alt="공격 지표 그래프"
-                  style="
-                    max-width: 100%;
-                    max-height: 100%;
-                    margin-left: 80px;
-                    object-fit: contain;
-                  "
                 />
               </div>
             </div>
           </div>
 
-          <div class="chart-box">
-            <div class="chart-title">타격 세부 기록</div>
-
-            <div
-              style="
-                width: 100%;
-                height: 250px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-              "
-            >
+          <div class="chart-card full-width">
+            <div class="chart-header">
+              <div class="chart-title">타격 세부 기록 분석</div>
+            </div>
+            <div class="chart-body wide-chart-area">
               <img
                 src="{{ url_for('static', filename='image/player_chart/detail_chart_' ~ player.Id ~ '.png') }}"
                 alt="타격 세부 기록 그래프"
-                style="max-width: 100%; max-height: 100%; object-fit: contain"
               />
             </div>
           </div>
         </section>
       </div>
     </main>
-
-    <footer style="margin-top: 60px">
-      <p>© 2025 KBO Data Analysis Project.</p>
-    </footer>
   </body>
 </html>

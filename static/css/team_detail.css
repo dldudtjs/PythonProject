@@ -5,9 +5,13 @@
   display: flex;
   align-items: flex-end;
   gap: 20px;
-  margin-bottom: 30px;
+  /* 상단 여백 제거 (style.css의 container 마진 활용) */
+  margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #ddd;
+
+  /* 헤더 높이 고정 (레이아웃 계산을 위해) */
+  flex-shrink: 0;
 }
 
 .header-logo-box img {
@@ -29,30 +33,37 @@
 
 /* 붉은색 시즌 성적 배너 */
 .season-stats-banner {
-  background-color: #a50034;
-  color: white;
-  padding: 10px 25px;
+  color: ＃404041;
+  padding: 10px 0px;
   border-radius: 4px;
   font-size: 1.2rem;
   font-weight: bold;
   display: inline-flex;
   align-items: center;
   gap: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .rank-badge {
-  font-size: 1.4rem;
+  font-size: 20px;
   font-weight: 900;
-  color: #ffcc00;
+  color: white; /* 팀 상세에서는 노란색 텍스트로 통일 */
 }
 
-/* 2. 메인 대시보드 레이아웃 (Grid/Flex) */
+/* 2. 메인 대시보드 레이아웃 (Grid/Flex) 
+   style.css의 'overflow: hidden' 설정에 맞춰 높이를 계산합니다.
+*/
 .team-dashboard-layout {
   display: flex;
   gap: 30px;
-  height: 800px;
-  min-height: 600px;
+
+  /* [핵심 수정 1] 높이 계산 값을 더 늘려야 합니다. */
+  /* 설명: 전체화면(100vh) - (파란헤더 + 팀정보영역 + 여백) */
+  /* 기존 250px -> 340px 정도로 넉넉하게 빼주세요. */
+  height: calc(100vh - 340px);
+
+  /* [핵심 수정 2] min-height가 600px 등으로 잡혀있으면 
+     노트북 화면에서 뚫고 나갑니다. 0으로 변경하거나 삭제하세요. */
+  min-height: 0;
 }
 
 /* [좌측] 사이드바 (선수 리스트) */
@@ -61,7 +72,8 @@
   min-width: 350px;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100%; /* 부모 높이(calc)를 꽉 채움 */
+  overflow: hidden;
 }
 
 .player-list-area.full-height {
@@ -89,7 +101,7 @@
 /* 선수 리스트 헤더 (컬럼명) */
 .player-list-header-row {
   display: flex;
-  padding: 10px 5px;
+  padding: 10px 20px;
   border-bottom: 1px solid #ddd;
   font-weight: bold;
   color: #555;
@@ -102,7 +114,7 @@
 /* 선수 리스트 스크롤 영역 */
 .player-scroll-list {
   flex: 1;
-  overflow-y: auto;
+  overflow-y: auto; /* 내용 넘치면 여기서 스크롤 */
   min-height: 0;
 }
 
@@ -118,7 +130,7 @@
 .player-item {
   display: flex;
   align-items: center;
-  padding: 12px 5px;
+  padding: 12px 20px;
   border-bottom: 1px solid #eee;
   color: #333;
   font-size: 0.9rem;
@@ -168,8 +180,11 @@
 /* [우측] 컨텐츠 영역 (내부 스크롤 & 그리드) */
 .right-content-area {
   flex: 7;
+
+  /* [핵심 수정] 우측 영역도 화면 밖으로 안 나가게 내부 스크롤 처리 */
   overflow-y: auto;
   padding-right: 15px;
+  height: 100%; /* 부모 높이 채움 */
 
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2열 */
@@ -224,22 +239,11 @@
   object-fit: contain;
 }
 
-.placeholder-box {
-  flex: 1;
-  width: 100%;
-  background-color: #e0e0e0;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #777;
-  font-weight: bold;
-}
-
-.custom-scroll::-webkit-scrollbar {
+/* 스크롤바 커스텀 (우측 영역) */
+.right-content-area::-webkit-scrollbar {
   width: 8px;
 }
-.custom-scroll::-webkit-scrollbar-thumb {
+.right-content-area::-webkit-scrollbar-thumb {
   background-color: #ccc;
   border-radius: 4px;
 }
@@ -248,7 +252,7 @@
 @media (max-width: 900px) {
   .team-dashboard-layout {
     flex-direction: column;
-    height: auto;
+    height: auto; /* 모바일에서는 스크롤 허용 */
   }
   .left-sidebar {
     height: 500px;
@@ -256,5 +260,19 @@
   .right-content-area {
     grid-template-columns: 1fr;
     overflow-y: visible;
+    height: auto;
   }
+}
+
+.analysis-card.map-only {
+  padding: 0; /* 지도 박스만 내부 여백 제거 */
+  overflow: hidden; /* 둥근 모서리 밖으로지도 튀어나감 방지 */
+}
+
+/* 지도 박스 내부의 래퍼 크기 강제 확장 */
+.analysis-card.map-only .chart-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0; /* 내부 래퍼 둥근 모서리 제거 (부모가 처리함) */
 }
