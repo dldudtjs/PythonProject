@@ -1,1 +1,234 @@
-# 선수 비교 결과 페이지
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>선수 대 선수 비교분석</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/player_compare.css') }}"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <a href="/" class="logo">KBO Stat Lab</a>
+        <nav>
+          <ul>
+            <li><a href="/team">Team</a></li>
+            <li><a href="/player_compare">선수-선수 비교분석</a></li>
+            <li><a href="/analysis">팀-팀 비교분석</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="selection-section" class="compare-selection-box">
+        <h2>선수 대 선수 비교분석</h2>
+        <p>두 선수를 선택하여 역량을 비교해보세요.</p>
+
+        <div class="selectors-wrapper">
+          <div class="player-selector">
+            <h3>Player A</h3>
+            <select id="team1-select" onchange="loadPlayers(1)">
+              <option value="" disabled selected>팀 선택</option>
+              {% for name in team_names %}
+              <option value="{{ name }}">{{ name }}</option>
+              {% endfor %}
+            </select>
+            <select id="player1-select" disabled>
+              <option value="" disabled selected>선수 선택</option>
+            </select>
+          </div>
+
+          <div class="vs-text">VS</div>
+
+          <div class="player-selector">
+            <h3>Player B</h3>
+            <select id="team2-select" onchange="loadPlayers(2)">
+              <option value="" disabled selected>팀 선택</option>
+              {% for name in team_names %}
+              <option value="{{ name }}">{{ name }}</option>
+              {% endfor %}
+            </select>
+            <select id="player2-select" disabled>
+              <option value="" disabled selected>선수 선택</option>
+            </select>
+          </div>
+        </div>
+
+        <button onclick="startComparison()" class="analyze-btn">
+          비교하기
+        </button>
+      </section>
+
+      <section
+        id="result-section"
+        class="compare-result-box"
+        style="display: none"
+      >
+        <div class="result-header">
+          <h2>비교 결과</h2>
+          <button onclick="resetComparison()" class="reset-btn">
+            다시 비교하기
+          </button>
+        </div>
+
+        <div class="top-cards-container">
+          <div class="mini-profile-card" id="card-p1">
+            <div class="p-img-circle">
+              <img
+                src="{{ url_for('static', filename='image/profiles/profiles.jpg') }}"
+                alt="선수A"
+              />
+            </div>
+            <div class="p-info">
+              <h3 id="p1-name">선수명</h3>
+              <div class="team-badge-row">
+                <img id="p1-symbol" src="" alt="팀" class="mini-symbol" />
+                <span id="p1-team">팀명</span>
+              </div>
+              <ul class="p-detail-list">
+                <li>
+                  <span class="label">나이</span> <span id="p1-age"></span>
+                </li>
+                <li>
+                  <span class="label">포지션</span> <span id="p1-pos"></span>
+                </li>
+                <li>
+                  <span class="label">투타</span> <span id="p1-hand"></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="vs-divider">VS</div>
+
+          <div class="mini-profile-card" id="card-p2">
+            <div class="p-img-circle">
+              <img
+                src="{{ url_for('static', filename='image/profiles/profiles.jpg') }}"
+                alt="선수B"
+              />
+            </div>
+            <div class="p-info">
+              <h3 id="p2-name">선수명</h3>
+              <div class="team-badge-row">
+                <img id="p2-symbol" src="" alt="팀" class="mini-symbol" />
+                <span id="p2-team">팀명</span>
+              </div>
+              <ul class="p-detail-list">
+                <li>
+                  <span class="label">나이</span> <span id="p2-age"></span>
+                </li>
+                <li>
+                  <span class="label">포지션</span> <span id="p2-pos"></span>
+                </li>
+                <li>
+                  <span class="label">투타</span> <span id="p2-hand"></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="chart-section-wrapper">
+          <h3>선수 역량 비교 (주요 스탯)</h3>
+          <div class="chart-box">
+            <img id="bar-chart-img" src="" alt="막대 그래프" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 KBO Data Analysis Project.</p>
+    </footer>
+
+    <script>
+      // 팀 선택 시 해당 팀의 선수 목록 불러오기 (AJAX)
+      async function loadPlayers(num) {
+        const team = document.getElementById(`team${num}-select`).value;
+        const playerSelect = document.getElementById(`player${num}-select`);
+
+        // 초기화
+        playerSelect.innerHTML =
+          '<option value="" disabled selected>로딩 중...</option>';
+        playerSelect.disabled = true;
+
+        try {
+          const response = await fetch(`/api/players/${team}`);
+          const players = await response.json();
+
+          let html = '<option value="" disabled selected>선수 선택</option>';
+          players.forEach((p) => {
+            html += `<option value="${p.Id}">${p.Name} (${p.Pos})</option>`;
+          });
+
+          playerSelect.innerHTML = html;
+          playerSelect.disabled = false;
+        } catch (error) {
+          console.error("선수 로드 실패", error);
+          playerSelect.innerHTML =
+            '<option value="" disabled>로드 실패</option>';
+        }
+      }
+
+      // 비교 시작 버튼 클릭 시
+      async function startComparison() {
+        const p1Id = document.getElementById("player1-select").value;
+        const p2Id = document.getElementById("player2-select").value;
+
+        if (!p1Id || !p2Id) {
+          alert("두 선수를 모두 선택해주세요.");
+          return;
+        }
+
+        try {
+          // 1. 선수 데이터 가져오기
+          const [p1, p2] = await Promise.all([
+            fetch(`/api/player/${p1Id}`).then((res) => res.json()),
+            fetch(`/api/player/${p2Id}`).then((res) => res.json()),
+          ]);
+
+          // 2. 프로필 카드 채우기
+          fillProfileCard(1, p1);
+          fillProfileCard(2, p2);
+
+          // 3. 이미지 소스 연결
+          const timestamp = new Date().getTime();
+
+          document.getElementById(
+            "bar-chart-img"
+          ).src = `/plot/compare/${p1Id}/${p2Id}`;
+
+          // 4. 화면 전환
+          document.getElementById("selection-section").style.display = "none";
+          document.getElementById("result-section").style.display = "block";
+        } catch (error) {
+          console.error(error);
+          alert("데이터를 불러오는데 실패했습니다.");
+        }
+      }
+
+      function fillProfileCard(num, data) {
+        document.getElementById(`p${num}-name`).textContent = data.Name;
+        document.getElementById(`p${num}-team`).textContent = data.Team;
+        document.getElementById(`p${num}-symbol`).src = data.TeamSymbol || "";
+        document.getElementById(`p${num}-age`).textContent = data.Age + "세";
+        document.getElementById(`p${num}-pos`).textContent = data["Pos."];
+        document.getElementById(`p${num}-hand`).textContent = data.Hand;
+      }
+
+      function resetComparison() {
+        document.getElementById("result-section").style.display = "none";
+        document.getElementById("selection-section").style.display = "block";
+      }
+    </script>
+  </body>
+</html>

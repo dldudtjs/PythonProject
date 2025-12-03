@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9e8327b48b24836612ae1e5a09eb8d55 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9e8327b48b24836612ae1e5a09eb8d55" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9e8327b48b24836612ae1e5a09eb8d55 = L.map(
+                "map_9e8327b48b24836612ae1e5a09eb8d55",
+                {
+                    center: [35.222444, 128.581833],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1842a9013354ce4790210d3337bc780e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1842a9013354ce4790210d3337bc780e.addTo(map_9e8327b48b24836612ae1e5a09eb8d55);
+        
+    
+            var marker_c934ca3294ea32d772763e1728329dda = L.marker(
+                [35.222444, 128.581833],
+                {
+}
+            ).addTo(map_9e8327b48b24836612ae1e5a09eb8d55);
+        
+    
+            var icon_a3fd4659fe03db67461823a8528db903 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b88ae488567b2e05f4949d1bbb7e0b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c929c88375cc670911a455cb9142f5d = $(`<div id="html_3c929c88375cc670911a455cb9142f5d" style="width: 100.0%; height: 100.0%;">창원 NC 파크</div>`)[0];
+                popup_8b88ae488567b2e05f4949d1bbb7e0b6.setContent(html_3c929c88375cc670911a455cb9142f5d);
+            
+        
+
+        marker_c934ca3294ea32d772763e1728329dda.bindPopup(popup_8b88ae488567b2e05f4949d1bbb7e0b6)
+        ;
+
+        
+    
+    
+            marker_c934ca3294ea32d772763e1728329dda.bindTooltip(
+                `<div>
+                     NC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c934ca3294ea32d772763e1728329dda.setIcon(icon_a3fd4659fe03db67461823a8528db903);
+            
+</script>
+</html>

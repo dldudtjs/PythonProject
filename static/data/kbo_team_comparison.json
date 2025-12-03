@@ -1,722 +1,722 @@
 {
-    "KIA": [
-        {
-            "Opponent": "LG",
-            "W": "5",
-            "L": "11",
-            "D": "0",
-            "Winning_PCT": "0.313"
-        },
-        {
-            "Opponent": "한화",
-            "W": "4",
-            "L": "12",
-            "D": "0",
-            "Winning_PCT": "0.250"
-        },
-        {
-            "Opponent": "SSG",
-            "W": "8",
-            "L": "7",
-            "D": "1",
-            "Winning_PCT": 0.533
-        },
-        {
-            "Opponent": "삼성",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "NC",
-            "W": "7",
-            "L": "9",
-            "D": "0",
-            "Winning_PCT": "0.438"
-        },
-        {
-            "Opponent": "KT",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "롯데",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "두산",
-            "W": "9",
-            "L": "6",
-            "D": "1",
-            "Winning_PCT": "0.600"
-        },
-        {
-            "Opponent": "키움",
-            "W": "8",
-            "L": "6",
-            "D": "2",
-            "Winning_PCT": "0.571"
-        },
-        {
-            "Opponent": "KIA",
-            "W": "-",
-            "L": "-",
-            "D": "-",
-            "Winning_PCT": "-"
-        }
-    ],
-    "KT": [
-        {
-            "Opponent": "LG",
-            "W": "5",
-            "L": "11",
-            "D": "0",
-            "Winning_PCT": "0.313"
-        },
-        {
-            "Opponent": "한화",
-            "W": "6",
-            "L": "9",
-            "D": "1",
-            "Winning_PCT": "0.400"
-        },
-        {
-            "Opponent": "SSG",
-            "W": "7",
-            "L": "9",
-            "D": "0",
-            "Winning_PCT": "0.438"
-        },
-        {
-            "Opponent": "삼성",
-            "W": "11",
-            "L": "5",
-            "D": "0",
-            "Winning_PCT": "0.688"
-        },
-        {
-            "Opponent": "NC",
-            "W": "6",
-            "L": "9",
-            "D": "1",
-            "Winning_PCT": "0.400"
-        },
-        {
-            "Opponent": "롯데",
-            "W": "6",
-            "L": "8",
-            "D": "2",
-            "Winning_PCT": "0.429"
-        },
-        {
-            "Opponent": "KIA",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "두산",
-            "W": "11",
-            "L": "4",
-            "D": "1",
-            "Winning_PCT": "0.733"
-        },
-        {
-            "Opponent": "키움",
-            "W": "11",
-            "L": "5",
-            "D": "0",
-            "Winning_PCT": "0.688"
-        },
-        {
-            "Opponent": "KT",
-            "W": "-",
-            "L": "-",
-            "D": "-",
-            "Winning_PCT": "-"
-        }
-    ],
-    "LG": [
-        {
-            "Opponent": "한화",
-            "W": "8",
-            "L": "7",
-            "D": "1",
-            "Winning_PCT": "0.533"
-        },
-        {
-            "Opponent": "SSG",
-            "W": "10",
-            "L": "6",
-            "D": "0",
-            "Winning_PCT": "0.625"
-        },
-        {
-            "Opponent": "삼성",
-            "W": "9",
-            "L": "7",
-            "D": "0",
-            "Winning_PCT": "0.563"
-        },
-        {
-            "Opponent": "NC",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "KT",
-            "W": "11",
-            "L": "5",
-            "D": "0",
-            "Winning_PCT": "0.688"
-        },
-        {
-            "Opponent": "롯데",
-            "W": "10",
-            "L": "4",
-            "D": "2",
-            "Winning_PCT": "0.714"
-        },
-        {
-            "Opponent": "KIA",
-            "W": "11",
-            "L": "5",
-            "D": "0",
-            "Winning_PCT": "0.688"
-        },
-        {
-            "Opponent": "두산",
-            "W": "9",
-            "L": "7",
-            "D": "0",
-            "Winning_PCT": "0.563"
-        },
-        {
-            "Opponent": "키움",
-            "W": "9",
-            "L": "7",
-            "D": "0",
-            "Winning_PCT": "0.563"
-        },
-        {
-            "Opponent": "LG",
-            "W": "-",
-            "L": "-",
-            "D": "-",
-            "Winning_PCT": "-"
-        }
-    ],
-    "NC": [
-        {
-            "Opponent": "LG",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "한화",
-            "W": "6",
-            "L": "9",
-            "D": "1",
-            "Winning_PCT": "0.400"
-        },
-        {
-            "Opponent": "SSG",
-            "W": "6",
-            "L": "9",
-            "D": "1",
-            "Winning_PCT": "0.400"
-        },
-        {
-            "Opponent": "삼성",
-            "W": "7",
-            "L": "9",
-            "D": "0",
-            "Winning_PCT": "0.438"
-        },
-        {
-            "Opponent": "KT",
-            "W": "9",
-            "L": "6",
-            "D": "1",
-            "Winning_PCT": "0.600"
-        },
-        {
-            "Opponent": "롯데",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "KIA",
-            "W": "9",
-            "L": "7",
-            "D": "0",
-            "Winning_PCT": "0.563"
-        },
-        {
-            "Opponent": "두산",
-            "W": "9",
-            "L": "5",
-            "D": "2",
-            "Winning_PCT": "0.643"
-        },
-        {
-            "Opponent": "키움",
-            "W": "9",
-            "L": "6",
-            "D": "1",
-            "Winning_PCT": "0.600"
-        },
-        {
-            "Opponent": "NC",
-            "W": "-",
-            "L": "-",
-            "D": "-",
-            "Winning_PCT": "-"
-        }
-    ],
-    "SSG": [
-        {
-            "Opponent": "LG",
-            "W": "6",
-            "L": "10",
-            "D": "0",
-            "Winning_PCT": "0.375"
-        },
-        {
-            "Opponent": "한화",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "삼성",
-            "W": "7",
-            "L": "8",
-            "D": "1",
-            "Winning_PCT": "0.467"
-        },
-        {
-            "Opponent": "NC",
-            "W": "9",
-            "L": "6",
-            "D": "1",
-            "Winning_PCT": "0.600"
-        },
-        {
-            "Opponent": "KT",
-            "W": "9",
-            "L": "7",
-            "D": "0",
-            "Winning_PCT": "0.563"
-        },
-        {
-            "Opponent": "롯데",
-            "W": "10",
-            "L": "6",
-            "D": "0",
-            "Winning_PCT": "0.625"
-        },
-        {
-            "Opponent": "KIA",
-            "W": "7",
-            "L": "8",
-            "D": "1",
-            "Winning_PCT": "0.467"
-        },
-        {
-            "Opponent": "두산",
-            "W": "10",
-            "L": "6",
-            "D": "0",
-            "Winning_PCT": "0.625"
-        },
-        {
-            "Opponent": "키움",
-            "W": "9",
-            "L": "6",
-            "D": "1",
-            "Winning_PCT": "0.600"
-        },
-        {
-            "Opponent": "SSG",
-            "W": "-",
-            "L": "-",
-            "D": "-",
-            "Winning_PCT": "-"
-        }
-    ],
-    "두산": [
-        {
-            "Opponent": "LG",
-            "W": "7",
-            "L": "9",
-            "D": "0",
-            "Winning_PCT": "0.438"
-        },
-        {
-            "Opponent": "한화",
-            "W": "9",
-            "L": "6",
-            "D": "1",
-            "Winning_PCT": "0.600"
-        },
-        {
-            "Opponent": "SSG",
-            "W": "6",
-            "L": "10",
-            "D": "0",
-            "Winning_PCT": "0.375"
-        },
-        {
-            "Opponent": "삼성",
-            "W": "6",
-            "L": "10",
-            "D": "0",
-            "Winning_PCT": "0.375"
-        },
-        {
-            "Opponent": "NC",
-            "W": "5",
-            "L": "9",
-            "D": "2",
-            "Winning_PCT": "0.357"
-        },
-        {
-            "Opponent": "KT",
-            "W": "4",
-            "L": "11",
-            "D": "1",
-            "Winning_PCT": "0.267"
-        },
-        {
-            "Opponent": "롯데",
-            "W": "8",
-            "L": "7",
-            "D": "1",
-            "Winning_PCT": "0.533"
-        },
-        {
-            "Opponent": "KIA",
-            "W": "6",
-            "L": "9",
-            "D": "1",
-            "Winning_PCT": "0.400"
-        },
-        {
-            "Opponent": "키움",
-            "W": "10",
-            "L": "6",
-            "D": "0",
-            "Winning_PCT": "0.625"
-        },
-        {
-            "Opponent": "두산",
-            "W": "-",
-            "L": "-",
-            "D": "-",
-            "Winning_PCT": "-"
-        }
-    ],
-    "롯데": [
-        {
-            "Opponent": "LG",
-            "W": "4",
-            "L": "10",
-            "D": "2",
-            "Winning_PCT": "0.286"
-        },
-        {
-            "Opponent": "한화",
-            "W": "6",
-            "L": "10",
-            "D": "0",
-            "Winning_PCT": "0.375"
-        },
-        {
-            "Opponent": "SSG",
-            "W": "6",
-            "L": "10",
-            "D": "0",
-            "Winning_PCT": "0.375"
-        },
-        {
-            "Opponent": "삼성",
-            "W": "8",
-            "L": "7",
-            "D": "1",
-            "Winning_PCT": "0.533"
-        },
-        {
-            "Opponent": "NC",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "KT",
-            "W": "8",
-            "L": "6",
-            "D": "2",
-            "Winning_PCT": "0.571"
-        },
-        {
-            "Opponent": "KIA",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "두산",
-            "W": "7",
-            "L": "8",
-            "D": "1",
-            "Winning_PCT": "0.467"
-        },
-        {
-            "Opponent": "키움",
-            "W": "11",
-            "L": "5",
-            "D": "0",
-            "Winning_PCT": "0.688"
-        },
-        {
-            "Opponent": "롯데",
-            "W": "-",
-            "L": "-",
-            "D": "-",
-            "Winning_PCT": "-"
-        }
-    ],
-    "삼성": [
-        {
-            "Opponent": "LG",
-            "W": "7",
-            "L": "9",
-            "D": "0",
-            "Winning_PCT": "0.438"
-        },
-        {
-            "Opponent": "한화",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "SSG",
-            "W": "8",
-            "L": "7",
-            "D": "1",
-            "Winning_PCT": "0.533"
-        },
-        {
-            "Opponent": "NC",
-            "W": "9",
-            "L": "7",
-            "D": "0",
-            "Winning_PCT": "0.563"
-        },
-        {
-            "Opponent": "KT",
-            "W": "5",
-            "L": "11",
-            "D": "0",
-            "Winning_PCT": "0.313"
-        },
-        {
-            "Opponent": "롯데",
-            "W": "7",
-            "L": "8",
-            "D": "1",
-            "Winning_PCT": "0.467"
-        },
-        {
-            "Opponent": "KIA",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "두산",
-            "W": "10",
-            "L": "6",
-            "D": "0",
-            "Winning_PCT": "0.625"
-        },
-        {
-            "Opponent": "키움",
-            "W": "12",
-            "L": "4",
-            "D": "0",
-            "Winning_PCT": "0.750"
-        },
-        {
-            "Opponent": "삼성",
-            "W": "-",
-            "L": "-",
-            "D": "-",
-            "Winning_PCT": "-"
-        }
-    ],
-    "키움": [
-        {
-            "Opponent": "LG",
-            "W": "7",
-            "L": "9",
-            "D": "0",
-            "Winning_PCT": "0.438"
-        },
-        {
-            "Opponent": "한화",
-            "W": "2",
-            "L": "14",
-            "D": "0",
-            "Winning_PCT": "0.125"
-        },
-        {
-            "Opponent": "SSG",
-            "W": "6",
-            "L": "9",
-            "D": "1",
-            "Winning_PCT": "0.400"
-        },
-        {
-            "Opponent": "삼성",
-            "W": "4",
-            "L": "12",
-            "D": "0",
-            "Winning_PCT": "0.250"
-        },
-        {
-            "Opponent": "NC",
-            "W": "6",
-            "L": "9",
-            "D": "1",
-            "Winning_PCT": "0.400"
-        },
-        {
-            "Opponent": "KT",
-            "W": "5",
-            "L": "11",
-            "D": "0",
-            "Winning_PCT": "0.313"
-        },
-        {
-            "Opponent": "롯데",
-            "W": "5",
-            "L": "11",
-            "D": "0",
-            "Winning_PCT": "0.313"
-        },
-        {
-            "Opponent": "KIA",
-            "W": "6",
-            "L": "8",
-            "D": "2",
-            "Winning_PCT": "0.429"
-        },
-        {
-            "Opponent": "두산",
-            "W": "6",
-            "L": "10",
-            "D": "0",
-            "Winning_PCT": "0.375"
-        },
-        {
-            "Opponent": "키움",
-            "W": "-",
-            "L": "-",
-            "D": "-",
-            "Winning_PCT": "-"
-        }
-    ],
-    "한화": [
-        {
-            "Opponent": "LG",
-            "W": "7",
-            "L": "8",
-            "D": "1",
-            "Winning_PCT": "0.467"
-        },
-        {
-            "Opponent": "SSG",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "삼성",
-            "W": "8",
-            "L": "8",
-            "D": "0",
-            "Winning_PCT": "0.500"
-        },
-        {
-            "Opponent": "NC",
-            "W": "9",
-            "L": "6",
-            "D": "1",
-            "Winning_PCT": "0.600"
-        },
-        {
-            "Opponent": "KT",
-            "W": "9",
-            "L": "6",
-            "D": "1",
-            "Winning_PCT": "0.600"
-        },
-        {
-            "Opponent": "롯데",
-            "W": "10",
-            "L": "6",
-            "D": "0",
-            "Winning_PCT": "0.625"
-        },
-        {
-            "Opponent": "KIA",
-            "W": "12",
-            "L": "4",
-            "D": "0",
-            "Winning_PCT": "0.750"
-        },
-        {
-            "Opponent": "두산",
-            "W": "6",
-            "L": "9",
-            "D": "1",
-            "Winning_PCT": "0.400"
-        },
-        {
-            "Opponent": "키움",
-            "W": "14",
-            "L": "2",
-            "D": "0",
-            "Winning_PCT": "0.875"
-        },
-        {
-            "Opponent": "한화",
-            "W": "-",
-            "L": "-",
-            "D": "-",
-            "Winning_PCT": "-"
-        }
-    ]
+  "KIA": [
+    {
+      "Opponent": "LG",
+      "W": "5",
+      "L": "11",
+      "D": "0",
+      "Winning_PCT": "0.313"
+    },
+    {
+      "Opponent": "한화",
+      "W": "4",
+      "L": "12",
+      "D": "0",
+      "Winning_PCT": "0.250"
+    },
+    {
+      "Opponent": "SSG",
+      "W": "8",
+      "L": "7",
+      "D": "1",
+      "Winning_PCT": 0.533
+    },
+    {
+      "Opponent": "삼성",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "NC",
+      "W": "7",
+      "L": "9",
+      "D": "0",
+      "Winning_PCT": "0.438"
+    },
+    {
+      "Opponent": "KT",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "롯데",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "두산",
+      "W": "9",
+      "L": "6",
+      "D": "1",
+      "Winning_PCT": "0.600"
+    },
+    {
+      "Opponent": "키움",
+      "W": "8",
+      "L": "6",
+      "D": "2",
+      "Winning_PCT": "0.571"
+    },
+    {
+      "Opponent": "KIA",
+      "W": "-",
+      "L": "-",
+      "D": "-",
+      "Winning_PCT": "-"
+    }
+  ],
+  "KT": [
+    {
+      "Opponent": "LG",
+      "W": "5",
+      "L": "11",
+      "D": "0",
+      "Winning_PCT": "0.313"
+    },
+    {
+      "Opponent": "한화",
+      "W": "6",
+      "L": "9",
+      "D": "1",
+      "Winning_PCT": "0.400"
+    },
+    {
+      "Opponent": "SSG",
+      "W": "7",
+      "L": "9",
+      "D": "0",
+      "Winning_PCT": "0.438"
+    },
+    {
+      "Opponent": "삼성",
+      "W": "11",
+      "L": "5",
+      "D": "0",
+      "Winning_PCT": "0.688"
+    },
+    {
+      "Opponent": "NC",
+      "W": "6",
+      "L": "9",
+      "D": "1",
+      "Winning_PCT": "0.400"
+    },
+    {
+      "Opponent": "롯데",
+      "W": "6",
+      "L": "8",
+      "D": "2",
+      "Winning_PCT": "0.429"
+    },
+    {
+      "Opponent": "KIA",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "두산",
+      "W": "11",
+      "L": "4",
+      "D": "1",
+      "Winning_PCT": "0.733"
+    },
+    {
+      "Opponent": "키움",
+      "W": "11",
+      "L": "5",
+      "D": "0",
+      "Winning_PCT": "0.688"
+    },
+    {
+      "Opponent": "KT",
+      "W": "-",
+      "L": "-",
+      "D": "-",
+      "Winning_PCT": "-"
+    }
+  ],
+  "LG": [
+    {
+      "Opponent": "한화",
+      "W": "8",
+      "L": "7",
+      "D": "1",
+      "Winning_PCT": "0.533"
+    },
+    {
+      "Opponent": "SSG",
+      "W": "10",
+      "L": "6",
+      "D": "0",
+      "Winning_PCT": "0.625"
+    },
+    {
+      "Opponent": "삼성",
+      "W": "9",
+      "L": "7",
+      "D": "0",
+      "Winning_PCT": "0.563"
+    },
+    {
+      "Opponent": "NC",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "KT",
+      "W": "11",
+      "L": "5",
+      "D": "0",
+      "Winning_PCT": "0.688"
+    },
+    {
+      "Opponent": "롯데",
+      "W": "10",
+      "L": "4",
+      "D": "2",
+      "Winning_PCT": "0.714"
+    },
+    {
+      "Opponent": "KIA",
+      "W": "11",
+      "L": "5",
+      "D": "0",
+      "Winning_PCT": "0.688"
+    },
+    {
+      "Opponent": "두산",
+      "W": "9",
+      "L": "7",
+      "D": "0",
+      "Winning_PCT": "0.563"
+    },
+    {
+      "Opponent": "키움",
+      "W": "9",
+      "L": "7",
+      "D": "0",
+      "Winning_PCT": "0.563"
+    },
+    {
+      "Opponent": "LG",
+      "W": "-",
+      "L": "-",
+      "D": "-",
+      "Winning_PCT": "-"
+    }
+  ],
+  "NC": [
+    {
+      "Opponent": "LG",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "한화",
+      "W": "6",
+      "L": "9",
+      "D": "1",
+      "Winning_PCT": "0.400"
+    },
+    {
+      "Opponent": "SSG",
+      "W": "6",
+      "L": "9",
+      "D": "1",
+      "Winning_PCT": "0.400"
+    },
+    {
+      "Opponent": "삼성",
+      "W": "7",
+      "L": "9",
+      "D": "0",
+      "Winning_PCT": "0.438"
+    },
+    {
+      "Opponent": "KT",
+      "W": "9",
+      "L": "6",
+      "D": "1",
+      "Winning_PCT": "0.600"
+    },
+    {
+      "Opponent": "롯데",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "KIA",
+      "W": "9",
+      "L": "7",
+      "D": "0",
+      "Winning_PCT": "0.563"
+    },
+    {
+      "Opponent": "두산",
+      "W": "9",
+      "L": "5",
+      "D": "2",
+      "Winning_PCT": "0.643"
+    },
+    {
+      "Opponent": "키움",
+      "W": "9",
+      "L": "6",
+      "D": "1",
+      "Winning_PCT": "0.600"
+    },
+    {
+      "Opponent": "NC",
+      "W": "-",
+      "L": "-",
+      "D": "-",
+      "Winning_PCT": "-"
+    }
+  ],
+  "SSG": [
+    {
+      "Opponent": "LG",
+      "W": "6",
+      "L": "10",
+      "D": "0",
+      "Winning_PCT": "0.375"
+    },
+    {
+      "Opponent": "한화",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "삼성",
+      "W": "7",
+      "L": "8",
+      "D": "1",
+      "Winning_PCT": "0.467"
+    },
+    {
+      "Opponent": "NC",
+      "W": "9",
+      "L": "6",
+      "D": "1",
+      "Winning_PCT": "0.600"
+    },
+    {
+      "Opponent": "KT",
+      "W": "9",
+      "L": "7",
+      "D": "0",
+      "Winning_PCT": "0.563"
+    },
+    {
+      "Opponent": "롯데",
+      "W": "10",
+      "L": "6",
+      "D": "0",
+      "Winning_PCT": "0.625"
+    },
+    {
+      "Opponent": "KIA",
+      "W": "7",
+      "L": "8",
+      "D": "1",
+      "Winning_PCT": "0.467"
+    },
+    {
+      "Opponent": "두산",
+      "W": "10",
+      "L": "6",
+      "D": "0",
+      "Winning_PCT": "0.625"
+    },
+    {
+      "Opponent": "키움",
+      "W": "9",
+      "L": "6",
+      "D": "1",
+      "Winning_PCT": "0.600"
+    },
+    {
+      "Opponent": "SSG",
+      "W": "-",
+      "L": "-",
+      "D": "-",
+      "Winning_PCT": "-"
+    }
+  ],
+  "두산": [
+    {
+      "Opponent": "LG",
+      "W": "7",
+      "L": "9",
+      "D": "0",
+      "Winning_PCT": "0.438"
+    },
+    {
+      "Opponent": "한화",
+      "W": "9",
+      "L": "6",
+      "D": "1",
+      "Winning_PCT": "0.600"
+    },
+    {
+      "Opponent": "SSG",
+      "W": "6",
+      "L": "10",
+      "D": "0",
+      "Winning_PCT": "0.375"
+    },
+    {
+      "Opponent": "삼성",
+      "W": "6",
+      "L": "10",
+      "D": "0",
+      "Winning_PCT": "0.375"
+    },
+    {
+      "Opponent": "NC",
+      "W": "5",
+      "L": "9",
+      "D": "2",
+      "Winning_PCT": "0.357"
+    },
+    {
+      "Opponent": "KT",
+      "W": "4",
+      "L": "11",
+      "D": "1",
+      "Winning_PCT": "0.267"
+    },
+    {
+      "Opponent": "롯데",
+      "W": "8",
+      "L": "7",
+      "D": "1",
+      "Winning_PCT": "0.533"
+    },
+    {
+      "Opponent": "KIA",
+      "W": "6",
+      "L": "9",
+      "D": "1",
+      "Winning_PCT": "0.400"
+    },
+    {
+      "Opponent": "키움",
+      "W": "10",
+      "L": "6",
+      "D": "0",
+      "Winning_PCT": "0.625"
+    },
+    {
+      "Opponent": "두산",
+      "W": "-",
+      "L": "-",
+      "D": "-",
+      "Winning_PCT": "-"
+    }
+  ],
+  "롯데": [
+    {
+      "Opponent": "LG",
+      "W": "4",
+      "L": "10",
+      "D": "2",
+      "Winning_PCT": "0.286"
+    },
+    {
+      "Opponent": "한화",
+      "W": "6",
+      "L": "10",
+      "D": "0",
+      "Winning_PCT": "0.375"
+    },
+    {
+      "Opponent": "SSG",
+      "W": "6",
+      "L": "10",
+      "D": "0",
+      "Winning_PCT": "0.375"
+    },
+    {
+      "Opponent": "삼성",
+      "W": "8",
+      "L": "7",
+      "D": "1",
+      "Winning_PCT": "0.533"
+    },
+    {
+      "Opponent": "NC",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "KT",
+      "W": "8",
+      "L": "6",
+      "D": "2",
+      "Winning_PCT": "0.571"
+    },
+    {
+      "Opponent": "KIA",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "두산",
+      "W": "7",
+      "L": "8",
+      "D": "1",
+      "Winning_PCT": "0.467"
+    },
+    {
+      "Opponent": "키움",
+      "W": "11",
+      "L": "5",
+      "D": "0",
+      "Winning_PCT": "0.688"
+    },
+    {
+      "Opponent": "롯데",
+      "W": "-",
+      "L": "-",
+      "D": "-",
+      "Winning_PCT": "-"
+    }
+  ],
+  "삼성": [
+    {
+      "Opponent": "LG",
+      "W": "7",
+      "L": "9",
+      "D": "0",
+      "Winning_PCT": "0.438"
+    },
+    {
+      "Opponent": "한화",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "SSG",
+      "W": "8",
+      "L": "7",
+      "D": "1",
+      "Winning_PCT": "0.533"
+    },
+    {
+      "Opponent": "NC",
+      "W": "9",
+      "L": "7",
+      "D": "0",
+      "Winning_PCT": "0.563"
+    },
+    {
+      "Opponent": "KT",
+      "W": "5",
+      "L": "11",
+      "D": "0",
+      "Winning_PCT": "0.313"
+    },
+    {
+      "Opponent": "롯데",
+      "W": "7",
+      "L": "8",
+      "D": "1",
+      "Winning_PCT": "0.467"
+    },
+    {
+      "Opponent": "KIA",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "두산",
+      "W": "10",
+      "L": "6",
+      "D": "0",
+      "Winning_PCT": "0.625"
+    },
+    {
+      "Opponent": "키움",
+      "W": "12",
+      "L": "4",
+      "D": "0",
+      "Winning_PCT": "0.750"
+    },
+    {
+      "Opponent": "삼성",
+      "W": "-",
+      "L": "-",
+      "D": "-",
+      "Winning_PCT": "-"
+    }
+  ],
+  "키움": [
+    {
+      "Opponent": "LG",
+      "W": "7",
+      "L": "9",
+      "D": "0",
+      "Winning_PCT": "0.438"
+    },
+    {
+      "Opponent": "한화",
+      "W": "2",
+      "L": "14",
+      "D": "0",
+      "Winning_PCT": "0.125"
+    },
+    {
+      "Opponent": "SSG",
+      "W": "6",
+      "L": "9",
+      "D": "1",
+      "Winning_PCT": "0.400"
+    },
+    {
+      "Opponent": "삼성",
+      "W": "4",
+      "L": "12",
+      "D": "0",
+      "Winning_PCT": "0.250"
+    },
+    {
+      "Opponent": "NC",
+      "W": "6",
+      "L": "9",
+      "D": "1",
+      "Winning_PCT": "0.400"
+    },
+    {
+      "Opponent": "KT",
+      "W": "5",
+      "L": "11",
+      "D": "0",
+      "Winning_PCT": "0.313"
+    },
+    {
+      "Opponent": "롯데",
+      "W": "5",
+      "L": "11",
+      "D": "0",
+      "Winning_PCT": "0.313"
+    },
+    {
+      "Opponent": "KIA",
+      "W": "6",
+      "L": "8",
+      "D": "2",
+      "Winning_PCT": "0.429"
+    },
+    {
+      "Opponent": "두산",
+      "W": "6",
+      "L": "10",
+      "D": "0",
+      "Winning_PCT": "0.375"
+    },
+    {
+      "Opponent": "키움",
+      "W": "-",
+      "L": "-",
+      "D": "-",
+      "Winning_PCT": "-"
+    }
+  ],
+  "한화": [
+    {
+      "Opponent": "LG",
+      "W": "7",
+      "L": "8",
+      "D": "1",
+      "Winning_PCT": "0.467"
+    },
+    {
+      "Opponent": "SSG",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "삼성",
+      "W": "8",
+      "L": "8",
+      "D": "0",
+      "Winning_PCT": "0.500"
+    },
+    {
+      "Opponent": "NC",
+      "W": "9",
+      "L": "6",
+      "D": "1",
+      "Winning_PCT": "0.600"
+    },
+    {
+      "Opponent": "KT",
+      "W": "9",
+      "L": "6",
+      "D": "1",
+      "Winning_PCT": "0.600"
+    },
+    {
+      "Opponent": "롯데",
+      "W": "10",
+      "L": "6",
+      "D": "0",
+      "Winning_PCT": "0.625"
+    },
+    {
+      "Opponent": "KIA",
+      "W": "12",
+      "L": "4",
+      "D": "0",
+      "Winning_PCT": "0.750"
+    },
+    {
+      "Opponent": "두산",
+      "W": "6",
+      "L": "9",
+      "D": "1",
+      "Winning_PCT": "0.400"
+    },
+    {
+      "Opponent": "키움",
+      "W": "14",
+      "L": "2",
+      "D": "0",
+      "Winning_PCT": "0.875"
+    },
+    {
+      "Opponent": "한화",
+      "W": "-",
+      "L": "-",
+      "D": "-",
+      "Winning_PCT": "-"
+    }
+  ]
 }

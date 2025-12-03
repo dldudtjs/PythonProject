@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ team_name }} 상세 정보</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/team_detail.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <a href="/" class="logo">KBO Stat Lab</a>
+        <nav>
+          <ul>
+            <li><a href="/team">Team</a></li>
+            <li><a href="/player_compare">선수-선수 비교분석</a></li>
+            <li><a href="/analysis">팀-팀 비교분석</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="new-team-header">
+        <div class="header-logo-box">
+          <img src="{{ team.Logo }}" alt="{{ team_name }} 로고" />
+        </div>
+
+        <div class="header-info-box">
+          <h1 class="team-title">{{ team_name }}</h1>
+          <div class="season-stats-banner">
+            <span class="rank-badge">{{ team.Rank }}위</span>
+            <span class="stats-text"
+              >{{ team.W }}승 {{ team.D }}무 {{ team.L }}패 (승률 {{ team.PCT
+              }})</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="team-dashboard-layout">
+        <aside class="left-sidebar">
+          <div class="player-list-area full-height">
+            <div class="list-header">
+              <h3>
+                출전선수 리스트
+                <span class="count">({{ players|length }})</span>
+              </h3>
+            </div>
+
+            <div class="player-list-header-row">
+              <span class="col-pos">Pos</span>
+              <span class="col-name">이름</span>
+              <span class="col-stat highlight">WAR</span>
+              <span class="col-stat">oWAR</span>
+              <span class="col-stat">dWAR</span>
+            </div>
+
+            <div class="player-scroll-list">
+              {% for p in players %}
+              <a href="/player/{{ p.Id }}" class="player-item">
+                <span class="col-pos badge">{{ p['Pos.'] }}</span>
+                <span class="col-name">{{ p.Name }}</span>
+                <span class="col-stat highlight">{{ p.WAR }}</span>
+                <span class="col-stat">{{ p.oWAR }}</span>
+                <span class="col-stat">{{ p.dWAR }}</span>
+              </a>
+              {% endfor %}
+            </div>
+          </div>
+        </aside>
+
+        <section class="right-content-area custom-scroll">
+          <div class="analysis-card">
+            <h3>팀 전력 분석 (WAA)</h3>
+            <div class="chart-wrapper">
+              <img
+                src="{{ url_for('static', filename='image/radar/radar_' + team_name + '.png') }}"
+                alt="{{ team_name }} 전력 분석"
+              />
+            </div>
+          </div>
+
+          <div class="chart-wrapper" style="height: 300px">
+            <iframe
+              src="{{ url_for('static', filename='maps/map_' + team_name + '.html') }}"
+              width="100%"
+              height="100%"
+              style="border: none; border-radius: 8px"
+            >
+            </iframe>
+          </div>
+
+          <div class="analysis-card">
+            <h3>경기당 득점/실점 비교 (R/G)</h3>
+            <div class="chart-wrapper">
+              <img
+                src="{{ url_for('static', filename='image/team_chart/runs_chart_' + team_name + '.png') }}"
+                alt="{{ team_name }} 득실 그래프"
+              />
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <h3>피타고리안 승률 분석</h3>
+
+            <div class="chart-wrapper">
+              <img
+                src="{{ url_for('static', filename='image/team_chart/pythagorean_' + team_name + '.png') }}"
+                alt="기대승률 그래프"
+              />
+            </div>
+
+            {% if pyth_data %}
+            <div
+              style="
+                background-color: #f9f9f9;
+                padding: 15px;
+                border-radius: 8px;
+                margin-top: 10px;
+                width: 90%;
+              "
+            >
+              <div
+                style="font-weight: bold; color: #002561; margin-bottom: 5px"
+              >
+                결과: {{ pyth_data[1] }}
+              </div>
+              <div style="font-size: 0.9rem; color: #555; line-height: 1.4">
+                {{ pyth_data[2] }}
+              </div>
+            </div>
+            {% endif %}
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2025 KBO Data Analysis Project.</p>
+    </footer>
+  </body>
+</html>
